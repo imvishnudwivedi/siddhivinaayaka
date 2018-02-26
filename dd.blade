@@ -1,0 +1,162 @@
+@extends('website.layouts.main')
+@section('content')
+
+
+
+
+
+  
+<div class="col-md-12" style="padding: 0px; z-index: 100;">
+       
+       
+            <div id="carousel-example-captions" class="carousel carousel-images slide" data-ride="carousel">
+           
+                <div class="carousel-inner">
+                <?php $cls="item active" ?>      
+        @foreach($home_slider as $h)
+        @for($i=0;$i<count($home_slider);$i++)
+               
+                    <div class="{{ $cls }}">
+
+
+                   
+
+                    <img style="height:450px;width: 100%;" src="{{ $home_slider[$i]['attachment'] }}" alt="Second slide image">
+                    <div class="carousel-caption carousel-caption-dark animated fadeInUpBig" style="
+    margin-bottom: -19px;">
+
+                     
+
+                      
+                    </div>
+                     <?php $cls="item" ?>   
+                    
+ </div>
+                   
+                
+                          @endfor @endforeach
+                          </div> 
+                <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-captions" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            <!-- carousel -->
+          </div>
+
+            </div>
+  <!-- End home section --> 
+  <!-- service section -->
+  <div class="col-md-12">
+
+  <div class="col-md-3"> 
+        <!-- Testimonials Box -->
+        <div class="testimonials">
+<h3 style="color: white;">Latest News</h3>
+              <?php $r=0; ?>
+              @foreach($news as $c) 
+              
+          <div class="slider-items-products">
+            <div id="testimonials-slider" class="product-flexslider hidden-buttons home-testimonials">
+         
+
+              <div class="slider-items slider-width-col4">
+              
+                <div class="holder">
+                    
+                <h4 style="color: white;" >{{$c->news_heading}}</h4>
+                  <p>{{$c->news_description}}</p>
+                  </div>
+                 
+            
+              </div>
+             
+            </div>
+          </div>
+           @endforeach
+        </div>
+      </div>
+  
+  <div class="jtv-service-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="jtv-service">
+          
+            <div class="service-content">
+              <h3>Prok Dv's </h3>
+              <p style="text-align: justify;">
+
+Apart from our comprehensive range of products there are various other reasons why our clients prefer us to our competitors. Some of those reasons are as follows:</p>
+
+ <ul>
+            <li style="text-align: initial;"> Manufacturing and allied lines</li>
+            <li style="text-align: initial;"> Technically qualified and experienced personnel</li>
+            <li style="text-align: initial;"> Infrastructure geared up for bulk manufacturing</li>
+            <li style="text-align: initial;"> Existing customer profile extremely quality conscious</li>
+             <li style="text-align: initial;"> Engineering and design competence gives value addition and an edge over the competition
+</li>
+              <li style="text-align: initial;"> Can also do repair and maintenance of existing systems after due diligence and pre verification</li>
+               <li style="text-align: initial;"> Also undertake panel designs for specific applications requiring use of sophisticated electronic power protection and control systems</li>
+              
+           
+          </ul>
+          <br>
+            <div class="col-md-12">
+        <div class="col-md-4">
+          <div class="jtv-service">
+           
+            <div class="service-content">
+              <h5>LATEST TECHNOLOGY </h5>
+              <br>
+              <p style="text-align: initial;">We offer State-Of-The-Art latest Technology  Products as per client's Requirement and can customize according to the Market Trend.  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="jtv-service">
+           
+            <div class="service-content">
+              <h5>CUSTOMER SATISFACTION </h5>
+              <br>
+              <p style="text-align: initial;">Customer Satisfaction is Our Motto </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="jtv-service">
+            
+            <div class="service-content">
+              <h5>QUALITY TEST </h5>
+              <br>
+              <p style="text-align: initial;">We Perform Various Ranges of Quality Tests on all Our Products before Packaging to Ensure Quality Products Delivery to  Our Customer Delight</p>
+            </div>
+          </div>
+        </div>
+        </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+
+  
+
+  
+  
+    <!--  //CONTENT  -->
+
+@section('script')
+@parent
+
+
+@endsection
+@stop
