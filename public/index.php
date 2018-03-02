@@ -19,7 +19,7 @@
 |
 */
 
-require __DIR__.'/../siddhivinaayak_master/bootstrap/autoload.php';
+require __DIR__.'/../bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +33,7 @@ require __DIR__.'/../siddhivinaayak_master/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../siddhivinaayak_master/bootstrap/app.php';
+$app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------

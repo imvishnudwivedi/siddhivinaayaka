@@ -11,8 +11,8 @@
       </ul>
     </div>
   </div>
-<marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee>
-
+<!-- <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee>
+ -->
  
 
   <div class="about" id="welcome">

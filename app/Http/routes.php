@@ -73,7 +73,13 @@ Route::group(['namespace'=>'website'], function () {
 
     
 
-
+ //event
+        Route::resource('/calendar', 'EventController');
+        Route::get('/my_calender', ['as' => 'my_calender', 'uses' => 'EventController@index']);
+        Route::post('moveCalendarEvents', ['as' => 'moveCalendarEvents', 'uses' => 'EventController@moveCalendarEvents']);
+        Route::post('deleteRecurringEvent', ['as' => 'deleteRecurringEvent', 'uses' => 'EventController@deleteRecurringEvent']);
+        Route::post('storeCalendarEvents', ['as' => 'storeCalendarEvents', 'uses' => 'EventController@storeCalendarEvents']);
+        Route::post('deleteCalendarEvents', ['as' => 'deleteCalendarEvents', 'uses' => 'EventController@deleteCalendarEvents']);
 
 
 

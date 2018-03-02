@@ -10,10 +10,18 @@
             </ul>
         </div>
       </div>
-      <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee>
+      <!-- <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee>
+ -->
+    
 
-  
         <div class="container" style="padding-right: 0px; padding-left: 0px;">
+          <br>
+          <center>
+          <h3 class="bars"> <span style="background-color: yellow ; color: red;">Temple Timing </span> : Monday to Friday 5 pm to 9 pm and 
+                        weekend 9 am to 9 pm </h3>
+     <h3 class="bars">Vedic classes for adults :By Satyanarayana Marathe
+ Sunday   5pm onwards </h3>
+  <h3 class="bars">Ganapati Atharva sheersha class    6 pm </h3></center>
 
             <div class="contact-form agile_inner_grids">
           <div class=" agile_wthree_inner_grids">

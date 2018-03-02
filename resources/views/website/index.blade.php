@@ -66,7 +66,7 @@ further.</p>
       </div>
     </div>
   </div>
-     <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee>
+  <!--    <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee> -->
     <div class="banner-bottom">
     <div class="container">
       <div class="col-md-4 agileits_banner_bottom_left">

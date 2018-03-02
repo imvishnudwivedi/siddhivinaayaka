@@ -33,7 +33,7 @@
                 <ul class="dropdown-menu agile_short_dropdown">
                   <li><a href="{{URL::route('about')}}">About</a></li>
                   <li><a href="{{URL::route('priests')}}">Priest</a></li>
-                
+                   <li><a href="{{URL::route('my_calender')}}">Calendar</a></li> 
 
                 </ul>
               </li>
