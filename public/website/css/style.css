@@ -1982,7 +1982,7 @@ li.list-group-item1 {
 }
 
 ol {
-    margin-bottom: 44px;
+    margin-bottom: 0px;
 }
 
 h2.typoh2 {
@@ -2070,6 +2070,10 @@ h2.typoh2 {
     h3.hdg,
     h3.bars {
         font-size: 1.2em;
+    }
+    .admin h3{
+        font-size: 15px;
+
     }
     .table h1 {
         font-size: 26px;

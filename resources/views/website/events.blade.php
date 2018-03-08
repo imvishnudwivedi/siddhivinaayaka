@@ -13,10 +13,40 @@
 </div>
 <!-- <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee> -->
 <div class="container">
-	<br><br><br><br><br>
+  <div class="admin">
+    <h3 style="color: #fff;">On March 10 , 2018 Saturday "Holy Celebration"</h3>
+    <ol>
+          <p>Timing  : 2:00 PM to 5:00 PM</p>
+           <p>Colors, Music, Holy Fire </p>
+         
+          </ol>
+         
+        </div>
+          <div class="admin">
+    <h3 style="color: #fff;">On March 18 , 2018 Sunday "Ugadi - Gudi Padwa" </h3>
+    <ol>
+          <p> 9:00 AM  - Ganesh Pooja</p>
+          <p>  11:00 AM - Sai Bhajan</p>
+           <p>  1:00 PM - Maha Prasaad</p>
+            <p>  4:00 PM - Open House Formation of New Committee </p>
 
-<h1 class="bars">Upcoming....... </h1>
-<br><br><br><br><br><br><br><br>
+             <p>  5:00 PM - Panchanga Sravana and Music</p>
+         
+          </ol>
+         
+        </div>
+          <div class="admin">
+    <h3 style="color: #fff;">On March 25 , Shri Rama Navami</h3>
+    <ol>
+          <p>9:00 AM onwards</p>
+         
+          </ol>
+         
+        </div>
+
+
+
+
 </div>
 
 
