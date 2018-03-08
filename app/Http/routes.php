@@ -15,20 +15,7 @@ Route::get('/',['as' => 'home','uses'=>'Prok\HomeController@index']);
 
 //Website
 
-Route::get('/deleteAttachment',['as'=>'deleteAttachment','uses'=>'prok\masters\ItemController@deleteAttachment']);
-Route::post('/headerAttachment',['as'=>'masters.item.upload.headerAttachment','uses'=>'prok\masters\ItemController@headerAttachment']);
-Route::get('/deleteTmpAttachment',['as'=>'deleteTmpAttachment','uses'=>'prok\masters\ItemController@deleteTmpAttachment']);
 
-
-Route::get('/deleteBoqAttachment',['as'=>'deleteBoqAttachment','uses'=>'prok\masters\ItemController@deleteBoqAttachment']);
-Route::post('/boqAttachment',['as'=>'masters.item.upload.boqAttachment','uses'=>'prok\masters\ItemController@boqAttachment']);
-Route::get('/deleteBoqTmpAttachment',['as'=>'deleteBoqTmpAttachment','uses'=>'prok\masters\ItemController@deleteBoqTmpAttachment']);
-
-
-
-Route::get('/deleteBosAttachment',['as'=>'deleteBosAttachment','uses'=>'prok\masters\ItemController@deleteBosAttachment']);
-Route::post('/bosAttachment',['as'=>'masters.item.upload.bosAttachment','uses'=>'prok\masters\ItemController@bosAttachment']);
-Route::get('/deleteBosTmpAttachment',['as'=>'deleteBosTmpAttachment','uses'=>'prok\masters\ItemController@deleteBosTmpAttachment']);
 
 
 Route::group(['namespace'=>'Auth'], function () {
@@ -37,6 +24,63 @@ Route::group(['namespace'=>'Auth'], function () {
   Route::post('login',['as' => 'postLogin','uses'=>'AuthController@doLogin']);
   Route::get('sign_out',['as' => 'sign_out','uses'=>'AuthController@signOut']);
 });
+Route::group(['prefix'=>'siddhivinayak','namespace'=>'siddhivinayak','middleware'=>'auth'],function(){
+Route::get('dashboard',['as' => 'dashboard','uses'=>'DashboardController@index']);
+  
+   Route::resource('news','NewsController');
+   Route::get('/news/deactivate/{id}', ['as' => 'news.deactivate', 'uses' => 'NewsController@deactivate']);
+
+    Route::resource('career','CareerController');
+  Route::get('/career/deactivate/{id}', ['as' => 'career.deactivate', 'uses' => 'CareerController@deactivate']);
+
+ Route::group(['prefix'=>'masters','namespace'=>'masters'],function(){
+
+
+   
+
+
+     Route::resource('gallery','GalleryController');
+   Route::post('/upload_gallery/', ['as' => 'siddhivinayak.masters.gallery.uploadGallery', 'uses' => 'GalleryController@uploadGallery']);
+   Route::put('/upload_gallery_image/', ['as' => 'siddhivinayak.masters.gallery.uploadGalleryImage', 'uses' => 'GalleryController@uploadGalleryImage']);
+    Route::get('/gallery/deactivate/{id}', ['as' => 'masters.gallery.deactivate', 'uses' => 'GalleryController@deactivate']);
+    Route::get('/gallery/pushgallery/{id}', ['as' => 'siddhivinayak.masters.gallery.pushgallery', 'uses' => 'GalleryController@pushgallery']);
+
+
+     Route::resource('folder','FolderController');
+   Route::post('/upload_folder/', ['as' => 'siddhivinayak.masters.folder.uploadFolder', 'uses' => 'FolderController@uploadFolder']);
+   Route::put('/upload_folder_image/', ['as' => 'siddhivinayak.masters.folder.uploadFolderImage', 'uses' => 'FolderController@uploadFolderImage']);
+    Route::get('/folder/deactivate/{id}', ['as' => 'masters.folder.deactivate', 'uses' => 'FolderController@deactivate']);
+
+
+
+
+
+
+
+
+ Route::resource('home_slider','HomeSliderController');
+ Route::post('/upload_slider/', ['as' => 'siddhivinayak.masters.home_slider.uploadSlider', 'uses' => 'HomeSliderController@uploadSlider']);
+ Route::put('/upload_image/', ['as' => 'siddhivinayak.masters.home_slider.uploadSliderImage', 'uses' => 'HomeSliderController@uploadSliderImage']);
+    Route::get('/home_slider/deactivate/{id}', ['as' => 'masters.home_slider.deactivate', 'uses' => 'HomeSliderController@deactivate']);
+
+//Occasion Master
+Route::resource('occasion','OccasionController');
+Route::get('/occasion/deactivate/{id}', ['as'=> 'siddhivinayak.masters.occasion.deactivate','uses'=>'OccasionController@deactivate']);
+Route::post('/updateOccasion/',['as'=>'siddhivinayak.masters.occasion.updateOccasion','uses'=>'OccasionController@updateOccasion']);
+
+//Tags Master
+
+// Route::get('/uom_master/deactivate/{id}', ['as' => 'masters.uom_master.deactivate', 'uses' => 'UomMasterController@deactivate']);
+    // Route::post('/updateUom/', ['as' => 'dbs.masters.uom_master.updateUom', 'uses' => 'UomMasterController@updateUom']);
+
+
+  });
+ });
+
+
+
+
+
 
 
 //DAS Routes
