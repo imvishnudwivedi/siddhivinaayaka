@@ -52,6 +52,12 @@ Route::get('dashboard',['as' => 'dashboard','uses'=>'DashboardController@index']
     Route::get('/folder/deactivate/{id}', ['as' => 'masters.folder.deactivate', 'uses' => 'FolderController@deactivate']);
 
 
+    //Event Master
+    Route::resource('events','EventsController');
+    Route::post('/updateEvent/',['as'=>'siddhivinayak.masters.events.updateEvent','uses'=>'EventController@updateEvent']);
+    Route::get('/events/deactivate/{id}', ['as' => 'masters.events.deactivate', 'uses' => 'EventsController@deactivate']);
+
+
 
 
 

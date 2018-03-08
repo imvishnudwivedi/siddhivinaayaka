@@ -29,6 +29,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <link href="{{ asset("/siddhivinayak/admin-lte/dist/css/bootstrap-select.min.css")}}" rel="stylesheet" type="text/css" />
 
+    <link href=" {{ asset("/siddhivinayak/css/datepicker/datepicker.css")}}" rel="stylesheet"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -93,6 +95,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="{{ asset ("/siddhivinayak/js/bootstrap-select.min.js") }}"></script>
 
 <script src="{{ asset ("/siddhivinayak/js/dropzone.min.js") }}"></script>
+
+<script src="{{ asset("/siddhivinayak/js/bootstrap-datepicker.js") }}" type="text/javascript"></script>
 
 
 <script type="text/javascript">
