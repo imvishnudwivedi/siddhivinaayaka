@@ -46,7 +46,6 @@
 </div>
 
 
-
  <div class="col-md-4">
           <div class="form-group @if($errors->first('from_date')) has-error @endif">
            {!!Form::label('from_date','From Date *')!!}

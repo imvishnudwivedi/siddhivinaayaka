@@ -12,7 +12,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Redirect;
 use Auth;
-use Input;
+use Input;  
 
 class EventsController extends Controller
 {
@@ -62,12 +62,12 @@ class EventsController extends Controller
       ->where('ev.id',$id)
       ->first();
 
-      if($events){
+      if($events->deleted_at==NULL){
 
         return view('siddhivinayak.masters.events.edit')->with('events',$events);
       }else{
 
-        return view('siddhivinayak.masters.events.index')->with('message','Cannot Edit Deactivated Event')->with('er_type','danger');
+        return redirect()->route('siddhivinayak.masters.events.index')->with('message','Cannot Edit Deactivated Event')->with('er_type','danger');
          }
     }
 
