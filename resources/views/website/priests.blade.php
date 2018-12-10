@@ -58,6 +58,19 @@
 
                 </ol>
 
+                <hr>
+                 <div class="col-md-9  thumb" style="margin-bottom: 20px;">
+            <h2> Bhargava Sharma Marthi -  Priest</h2>
+
+            <p>Hailed from a Priest family. Having ten years of experience as Hindu religious priest in several temples in USA. Fluent in English, Telugu, Hindi &Tamil.</p><p>Well versed in house Poojas like Satyanarayana Puja, GruhaPravesham, Ayushya Homam and all other homams, Namakaranam, Annaprasanam, Hait Offering and other Pujas.Specialized in Alankaram for Deities. Expertise in Archana, Abhishekam, Homam and other Temple related services.</p>
+        </div>
+             <div class="col-md-3  thumb" style="margin-bottom: 20px;">
+           
+                <img class="img-responsive" src="website/images/bhargav.png" alt="Another alt text">
+         
+        </div>
+         <div class="clearfix"> </div>
+
         <h3 class="bars">Temple Timing  : Monday to Friday 5 pm to 9 pm and 
                         weekend 9 am to 9 pm </h3>
 		 <h3 class="bars">Vedic classes for adults :By Satyanarayana Marathe

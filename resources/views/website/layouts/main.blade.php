@@ -5,14 +5,20 @@
 <head>
 
 <title>Welcome to Siddhivinaayak Temple</title>
+ <meta charset="utf-8">
 
   <!-- custom-theme -->
+   <meta name="Description" content="Lord Ganesha is the chief deity of this powerful Pooja at 1003 Stewart LN , NE Glen Burnie, MD.21060"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Marathe">
+  <link rel="canonical" href="http://siddhivinaayak.org/">
 
-  <meta name="keywords" content="" />
+  <meta name="keywords" content="Promote Hindu traditions, values, culture and heritage including music" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('website/images/logo_final_Copy.jpg') }}">
+
 
   <script type="application/x-javascript">
 
@@ -48,63 +54,18 @@
 
 
 
-<!--  FONTS  -->
-
-
-
-
-
-
-
+<!--  Style  -->
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/bootstrap.css") }}">
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/style.css") }}">
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/blog.css") }}">
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/flexslider.css") }}">
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/font-awesome.css") }}">
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/owl.carousel.css") }}">
-
-
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/chocolat.css") }}">
-
-
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/single.css") }}">
-
-
-
 <link rel="stylesheet" type="text/css" href="{{ asset("/website/css/team.css")}}" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
 
-
-
-
-
-
-
-
-
-
-
-
-<!--  //THEMES COLOR STYLE  -->
 
   
 

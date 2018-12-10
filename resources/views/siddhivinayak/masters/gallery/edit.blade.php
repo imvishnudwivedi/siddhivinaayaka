@@ -1,8 +1,8 @@
 @extends('siddhivinayak.layouts.dashboard')
 
-@section('title', 'Gallry Photos')
+@section('title', 'Gallery Photos')
 
-@section('page_title', 'Gallry Photos ')
+@section('page_title', 'Gallery Photos ')
 
 
 @section('page_title_sub', 'Manage Gallry Photos')
@@ -13,7 +13,7 @@
     <!-- Box -->
     <div class="box box-primary">
       <div class="box-header with-border">
-        <h3 class="box-title">Edit Sub Category here</h3>
+        <h3 class="box-title">Edit Gallery here</h3>
         <div class="box-tools pull-right">
           <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
         </div>

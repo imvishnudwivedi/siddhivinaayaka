@@ -33,10 +33,6 @@
             <!-- Optionally, you can add icons to the links -->
             <li class="active"><a href="{{URL::route('dashboard')}}"><span>Dashboard</span></a></li>
 
-            <li class="treeview">
-                <a href="{{URL::route('siddhivinayak.news.index')}}"><span><i class="fa fa-angle-double-right"> </i> Event</span></a>
-               </li>
-
          
                <li><a href="{{URL::route('siddhivinayak.masters.folder.index')}}"><span><i class="fa fa-angle-double-right"> </i>Gallery Folder</span></a></li>
                <li><a href="{{URL::route('siddhivinayak.masters.gallery.index')}}"><span><i class="fa fa-angle-double-right"> </i>Gallery photos</span></a></li> 

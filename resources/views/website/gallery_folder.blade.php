@@ -19,107 +19,16 @@
 
      {{--    <h1 class="page-header" style="color: #fff;">Thumbnail Gallery</h1> --}}
     
-              <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-           
-            <a class="thumbnail" href="{{URL::route('gallery')}}">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0455.JPG" alt="Another alt text">
-             <center>  <caption> Abhisheka</caption> </center> 
+            @foreach($folder as $g) 
+            <div class="col-md-4">
+            <a class="thumbnail"  data-image-id="" href="{{URL::to('/')}}/gallery/{{$g->id}}"   data-toggle="modal" data-title="{{$g->gallery_name}}" data-caption="" data-image="" data-target="">
+                <img  href="{{URL::to('/')}}/gallery_photos/{{$g->id}}" class="img-responsive" src="{{asset($g->folder_display_attachment)}}" alt="Another alt text">
+              <center>  <caption><h5>{{$g->folder_name}}</h5></caption></center>
             </a>
         </div>
+         @endforeach
 
-        <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                 
-            <a class="thumbnail" href="{{URL::route('hawan')}}">
-                <img class="img-responsive" src="website/images/gallery/hwan/IMG_0477.JPG" alt="Another alt text">
-             <center> <caption>Homa / Hawan</caption> </center> 
-            </a>
-        </div>
-
-         <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                 
-             <a class="thumbnail" href="{{URL::route('arati')}}">
-                <img class="img-responsive" src="website/images/gallery/arati/IMG_0570.JPG" alt="Another alt text">
-             <center> <caption>Arati / Archana</caption> </center> 
-            </a>
-        </div>
-
-        {{-- <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                 
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="1" data-image="website/images/gallery/archana/IMG_0580.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/archana/IMG_0580.JPG" alt="Another alt text">
-             <center> <caption>Sahasranaama Archana</caption> </center> 
-            </a>
-        </div> --}}
-              {{-- <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="2" data-image="website/images/gallery/IMG_0464.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0464.JPG" alt="Another alt text">
-            </a>
-        </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="3" data-image="website/images/gallery/IMG_0475.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0475.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="4" data-image="website/images/gallery/abhishek/IMG_0477.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0477.JPG" alt="Another alt text">
-            </a>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="5" data-image="website/images/gallery/IMG_0496.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0496.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0525.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0525.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0543.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0543.JPG" alt="Another alt text">
-            </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0558.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0558.JPG" alt="Another alt text">
-            </a>
-        </div>
-     
-      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/abhishek/IMG_0570.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0570.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0580.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0580.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0584.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0584.JPG" alt="Another alt text">
-            </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/abhishek/IMG_0589.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0589.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0593.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0593.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="6" data-image="website/images/gallery/IMG_0505.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/IMG_0505.JPG" alt="Another alt text">
-            </a>
-        </div>
-      --}}
-     
-     
+   
      
 </div>
 

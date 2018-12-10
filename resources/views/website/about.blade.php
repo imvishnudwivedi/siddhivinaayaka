@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="col-md-6 about_agileinfo_grid_imgs">
-          <img src="website/images/vinayka.jpg" alt="" />
+          <img src="website/images/vinayka.jpg" alt="vinayaka" />
           
         </div>
         <div class="clearfix"></div>
@@ -94,7 +94,7 @@
 
 
   <div class="admin">
-    <h3 style="color: #fff;">WHY DO WE NEED ANOTHER TEMPLE IN THE GREATER DC AREA?</h3>
+    <h3>WHY DO WE NEED ANOTHER TEMPLE IN THE GREATER DC AREA?</h3>
     <ol>
           <p>Primarily for the convenience of people residing in Ellicott City/Clarksville/Columbia there is a great unmet need that is not being currently served by other temples in the area due to the fact that the closest temple is 45 minutes away</p>
          

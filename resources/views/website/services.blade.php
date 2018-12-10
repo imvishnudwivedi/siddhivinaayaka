@@ -17,11 +17,14 @@
         <div class="col-md-12 bhoechie-tab-container">
             <div class="col-lg-3 col-md-3  bhoechie-tab-menu">
               <div class="list-group">
-                <a href="#Religious" class="list-group-item active text-center">
+                 <a href="#Rituals" class="list-group-item active text-center">
+                 <br/>Daily Rituals
+                </a>
+                <a href="#Religious" class="list-group-item  text-center">
                  <br/>Religious
                 </a>
                 <a href="#PooojaServices" class="list-group-item text-center">
-                  <br/>Poooja Services
+                  <br/>Pooja Services
                 </a>
                 <a href="#Educational" class="list-group-item text-center">
                  <br/>Educational
@@ -41,7 +44,81 @@
             </div>
             <div class="col-lg-9 col-md-9  bhoechie-tab">
                 <!-- flight section -->
-                <div class="bhoechie-tab-content active" id="#Religious">
+                  <div class="bhoechie-tab-content active" id="Rituals">
+                    <center>
+                    
+                   
+                    
+                       <h3 style="margin-top: 0;color:#55518a">VRATA / VISHESHA POOJA (TEMPLE ONLY)</h3> <br>
+                        </center>
+
+                    <div class="table-responsive">
+                    <table class="table table-bordered">
+                   <!--      <thead>
+                            <tr>
+                                <th>MONDAY</th>
+                                <th>Shiva Abhishekam - 06:30 PM</th>
+                                <th>AT  HOME</th>
+                                
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                            <tr>
+                                <td>MONDAY</td>
+                                <td>Shiva Abhishekam - 06:30 PM</td>
+                                <td>Aarti – 07:00 PM</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>TUESDAY </td>
+                                <td>Hanuman Abhishekam – 06:30 PM</td>
+                                <td>Aarti – 07:00 PM</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>WEDNESDAY </td>
+                                <td>Ayyappa Abhishekam – 06:30 PM</td>
+                                <td>Aarti – 07:00 PM</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>THURSDAY </td>
+                                <td>Sai Baba Abhishekam – 06:30 PM</td>
+                                <td>Aarti – 07:00 PM</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>FRIDAY </td>
+                                <td>Durga Abhishekam – 06:30 PM</td>
+                                <td>Aarti – 07:00 PM</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>SATURDAY </td>
+                                <td>-------</td>
+                                <td>Aarti – 07:00 PM</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>SUNDAY </td>
+                                <td>Ganesha Abhishekam – 06:30 PM</td>
+                                <td>Aarti – 07:00 PM</td>
+                                
+                            </tr>
+
+                           
+
+                          
+                        </tbody>
+                    </table>
+                    </div>
+           
+                    
+                     <br>
+                   
+                </div>
+    
+                <div class="bhoechie-tab-content " id="#Religious">
                     <center>
                     <h3 style="margin-top: 0;color:#55518a">Religious</h3><br>
                       <p style="text-align: justify;" >During one’s journey from mother’s womb to the last breath of life towards God, Vedic rituals are to be performed at the appropriate time, for a particular life event, to achieve great punya in one’s life time and for the next.</p><br>
@@ -63,7 +140,7 @@
                 <div class="bhoechie-tab-content" id="PooojaServices">
                     <center>
                     
-                      <h3 style="margin-top: 0;color:#55518a">Poooja Services</h3><br>
+                      <h3 style="margin-top: 0;color:#55518a">Pooja Services</h3><br>
                       <p style="text-align: justify;" >Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors! Shri Ganesha is remembered by all his devotees at every moment of their lives. Ganesha is the remover of all obstacles in your life. Shri Ganesha is the symbol of auspiciousness, a miraculous combination of an elephant and a human, with four hands to bless his devotees.</p><br>
                        <h3 style="margin-top: 0;color:#55518a">VRATA / VISHESHA POOJA (TEMPLE ONLY)</h3> <br>
                         </center>
@@ -73,22 +150,117 @@
                         <thead>
                             <tr>
                                 <th>POOJA</th>
-                                <th>DESCRIPTION</th>
-                                <th>AT THE TEMPLE</th>
+                                <th>AT TEMPLE</th>
+                                <th>AT  HOME</th>
                                 
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Ganapati Abhisheka</td>
-                                <td>Abhisheka for Lord Ganapati</td>
-                                <td>$21</td>
+                                <td>1.  Annaprasana</td>
+                                <td>$51</td>
+                                <td>$151</td>
                                
                             </tr>
                             <tr>
-                                <td>Sahasranaama Archana	</td>
-                                <td>Chanting of the 1008 names of the Deity, followed by fruit offering and Aarati</td>
-                                <td>$75</td>
+                                <td>2.  Hair Offering	</td>
+                                <td>$51</td>
+                                <td>--</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>3.  Gruha Pravesham </td>
+                                <td>--</td>
+                                <td>$201</td>
+                                
+                            </tr>
+
+                            <tr>
+                                <td>4.  Grah Shanti</td>
+                                <td>$151</td>
+                                <td>$201</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>5.  Any Homam </td>
+                                <td>$101</td>
+                                <td>$151</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>6.  Namakarana </td>
+                                <td>$51</td>
+                                <td>$151</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>7.  Engagement   </td>
+                                <td>$101</td>
+                                <td>$151</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>8.  Punyahavachanam </td>
+                                <td>$51</td>
+                                <td>$151</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>9.  Satyanarayana Puja </td>
+                                <td>$101</td>
+                                <td>$181</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>10.  Seemantham </td>
+                                <td>$151</td>
+                                <td>$201</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>11.  Shashti Poorthi </td>
+                                <td>$201 </td>
+                                <td>$301</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>12.  Shatabhishekam </td>
+                                <td>$201 </td>
+                                <td>$301</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>13.  Hiranya Shraddham </td>
+                                <td>$51 </td>
+                                <td>$101</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>14.  Upanayanam <br>
+Upanayanam (2days)
+ </td>
+                                <td>$151 <br> $301</td>
+                                <td>$251 <br> $501</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>15. Vidyarambhama </td>
+                                <td>$51 </td>
+                                <td>$151</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>16. Vivaham </td>
+                                <td>$151 </td>
+                                <td>$251</td>
+                                
+                            </tr>
+                             <tr>
+                                <td>17. Griha Pravesham &
+Satyanarayana Puja
+ </td>
+                                <td>-- </td>
+                                <td>$301</td>
                                 
                             </tr>
                            

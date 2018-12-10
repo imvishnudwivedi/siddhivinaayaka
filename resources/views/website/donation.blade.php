@@ -23,23 +23,14 @@
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th>Mantapa and Murthi sponsorship</th>
-                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6CNYEWMCZ5C6Q" target="_blank"><span class="badge"> $ 10,001</span></a></th>
+                                    <th>Sahasra Naama Archana and Sahasra Modaka Pooja </th>
+                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZDWEKXTHFDBE&source=url" target="_blank"><span class="badge"> $ 51</span></a></th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th>Siddhivinaayak Murthi sponsorship</th>
-                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=38MXZXRTXM4C2" target="_blank"><span class="badge"> $ 5,001</span></a></th>
-                                </tr>
-                                <tr>
-                                    <th>Pancha (five) Modak sponsorship</th>
-                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UE45M8WXKLWKU" target="_blank"><span class="badge"> $ 1,221</span></a></th>
-                                </tr>
-                                <tr>
-                                    <th>Yeka (one) Modak sponsorship</th>
-                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D4QET7C5PEQ3L" target="_blank"><span class="badge"> $ 251 </span></a></th>
-                                </tr>
+                               
+                              
+                                
                                 <tr>
                                     <th>Donate $1 per day for a month - $30</th>
                                     <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S2UJCBUHNL692" target="_blank"><span class="badge"> $ 1 </span></a></th>
@@ -52,16 +43,17 @@
                             </tbody>
                         </table>
 
-                         <center> <h4><b>DONATION INFORMATION</h4></b> </center> 
- <center> <h5>How much would you like to donate?</h5> </center> 
+                         <center> <h4><b>Donate As per Wish</h4></b> </center> 
+ <center> <h5></h5> </center> 
                   <center>   	<h2>
-                  	{{-- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQY8J53ZAFD5L" target="_blank"><span class="label label-primary"> $0.5</span></a>
-                  	 	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S2UJCBUHNL692" target="_blank"><span class="label label-primary"> $1</span></a> --}}
+                   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BXV2HCHKFSE6S" target="_blank"><span style="font-size: 20px; background-color: orange;" class="button2"><b> Donate</b></span></a>
+               <!--  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQY8J53ZAFD5L" target="_blank"><span class="label label-primary"> $0.5</span></a>
+                  	 	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S2UJCBUHNL692" target="_blank"><span class="label label-primary"> $1</span></a>
                         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MBLNF3PV93N4Q" target="_blank"><span class="label label-primary"> $10.00</span></a>
                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6LTY3EKTXGLU" target="_blank"><span class="label label-primary"> $25.00</span></a></h2>
                       <h2>  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8MUWNMAT6V2TG" target="_blank"><span class="label label-primary"> $50.00</span></a>
                         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QKXCP5FP3L5KU" target="_blank"><span class="label label-primary"> $100.00</span></a>
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VUV2XM7MAY8LJ" target="_blank"><span class="label label-primary"> $500.00</span></a>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VUV2XM7MAY8LJ" target="_blank"><span class="label label-primary"> $500.00</span></a> -->
                      
                     </h2></center>
 

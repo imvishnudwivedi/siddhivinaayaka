@@ -16,43 +16,22 @@
 <div class="row">
 
     <div class="col-lg-12">
-        <center> <h2>Ganapati Abhisheka</h2> </center>
+
      {{--    <h1 class="page-header" style="color: #fff;">Thumbnail Gallery</h1> --}}
+     @foreach($folder as $f) 
+        <h3 class="page-header">{{$f->folder_name}}</h3>
+        @endforeach
     
-              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="Ganapati Abhisheka" data-image="website/images/gallery/abhishek/IMG_0455.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0455.JPG" alt="Another alt text">
+          
+          @foreach($gallery as $g) 
+            <div class="col-md-3">
+            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="{{$g->gallery_name}}" data-caption="" data-image="{{asset($g->gallery_display_attachment)}}" data-target="#image-gallery">
+             
+                <img class="img-responsive" src="{{asset($g->gallery_display_attachment)}}" alt="Another alt text">
+              <center>  <caption>{{$g->gallery_name}}</caption></center>
             </a>
         </div>
-              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="Ganapati Abhisheka" data-image="website/images/gallery/abhishek/IMG_0464.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0464.JPG" alt="Another alt text">
-            </a>
-        </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="Ganapati Abhisheka" data-image="website/images/gallery/abhishek/IMG_0475.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0475.JPG" alt="Another alt text">
-            </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="Ganapati Abhisheka" data-image="website/images/gallery/abhishek/IMG_0447.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0447.JPG" alt="Another alt text">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="Ganapati Abhisheka" data-image="website/images/gallery/abhishek/IMG_0468.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0468.JPG" alt="Another alt text">
-            </a>
-        </div>
-      
-         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Siddhivinayka" data-caption="Ganapati Abhisheka" data-image="website/images/gallery/abhishek/IMG_0469.JPG" data-target="#image-gallery">
-                <img class="img-responsive" src="website/images/gallery/abhishek/IMG_0469.JPG" alt="Another alt text">
-            </a>
-        </div>
-      
-       
-     
+         @endforeach
      
      
 </div>

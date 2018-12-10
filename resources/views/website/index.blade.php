@@ -1,72 +1,137 @@
 @extends('website.layouts.main')
 @section('content')
 
-
-
-
-
-  
-{{-- <div class="banner_top">
-
-      <div class="slider">
-        <div class="wrapper">
+<style type="text/css">
+    @-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.5;}
+}
+.blink{
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1.6s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+  </style>
+  <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Sankalpa Form</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body mx-3" style="padding: 0px;">
+         <div class="col-sm-12">
+         {!!Form::open(array('route' => array('sankalpa.posts'), 'method' => 'POST','files'=>true,'id'=>'contact-form'))!!}
+              <br>
+                <div class="contact-form-box">
+                  <div class="col-md-6 form-selector" style="margin-bottom: 12px;">
+                    <label>Full Name *</label>
+                    <input type="text" class="form-control input-md" id="name" name="name" placeholder="Enter Your Name" required="">
+                  </div>
+                                  <div class="col-md-6 form-selector" style="margin-bottom: 17px;">
+                    <label>Gotra</label>
+                    <input type="text" class="form-control input-md" id="gotra" name="gotra" placeholder="Enter Your Gotra" >
+                  </div>
+                    <div class="clearfix"></div>
+                  <hr>
+                 
+                  <div class=" col-md-6 form-selector" style="margin-bottom: 17px;">
+                    <label>Nakshatra</label>
+                    <input type="text" class="form-control input-md" id="nakshatra" name="nakshatra" placeholder="Enter Your Nakshatra" >
+                  </div>
+                
+                
+                  <div class="col-md-6 form-selector" style="margin-bottom: 17px;">
+                    <label>Rashi</label>
+                    <input type="text" class="form-control input-md" id="rashi" name="rashi" placeholder="Enter Your Rashi" >
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr>
+               
+                  <div class=" col-md-6 form-selector" style="margin-bottom: 12px;">
+                    <label>Email *</label>
+                    <input type="text" class="form-control input-md" id="email" name="email" placeholder="Enter Your Email" required="">
+                  </div>
+               
         
-          <ul class="rslides" id="slider">
-            <li><img src="{{ asset('website/images/banner444.jpg') }}" data-selector="img" alt=""></li>
-            <li><img src="{{ asset('website/images/banner222.jpg') }}" data-selector="img" alt=""></li>
-            <li><img src="{{ asset('website/images/banner333.jpg') }}" data-selector="img" alt=""></li>
-          
-          </ul>
-     
-        <center>  <ul id="slider3-pager">
-            <li><a href="#"><img src="{{ asset('website/images/banner444.jpg') }}" data-selector="img" alt=""></a></li>
-            <li><a href="#"><img src="{{ asset('website/images/banner222.jpg') }}" data-selector="img" alt=""></a></li>
-            <li><a href="#"><img src="{{ asset('website/images/banner333.jpg') }}" data-selector="img" alt=""></a></li>
-          
-          </ul>
-          </center>
-        </div>
+                 
+                   <div class="col-md-6 form-selector" style="margin-bottom: 12px;">
+                    <label>Phone Number *</label>
+                     <input type="text" required="" class="form-control input-md" style="" placeholder="Enter Your Phone  Number"  id="phone_number" name="phone_number">
+                     </div>
+                <div class="clearfix"></div>
+                   <br>
+
+                
+                  <br>
+                  
+                  <div class="form-selector pull-right" style="margin-right: 45PX;">
+                   {!!  Form::submit('Submit', ['class' => 'btn btn-ar btn-primary','id'=>'submit_contact']) !!}
+                    <button type="button" class="btn btn-ar btn-danger" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">Close</span>
+                    </button>
+                    </div>
+                    
+                    {!!Form::close()!!}
+                  </div>
+                </div>
+
       </div>
-    </div> --}}
-
-     <div class="about" id="welcome">
-    <div class="container">
-      <div class="wthree_head_section">
-        <h3 class="w3l_header w3_agileits_header two">Start the new year on the right note with the blessings of <span>
-Sri Ganesh</span></h3>
-      </div>
-      <div class="agile_wthree_inner_grids">
-
-        <div class="col-md-6 about_agileinfo">
-          <h4>Siddhivinaayak Temple</h4>
-          <p>In order to cater to the devotees residing in Clarksville/Glen Burnie/Elicott City area we are
-embarking on a grand project to build a shrine dedicated to Sri Siddhivinaayak. With the
-blessings of Sri Siddhivinaayak here is your opportunity to contribute to this very special
-project.</p>
-
-          <p>We have acquired an existing place of worship measuring approximately 6,000 sq. ft. Included
-as part of this property are prayer hall measuring 2,000 sq.ft., community hall measuring
-3,000 sq. ft. and a priests’ residence measuring 1,000 sq. ft. We are currently in the process
-of planning the renovations to the property. We need your help to make our efforts go even
-further.</p>
-<p>Our target for this project is $500,000.</p>
-          <div class="agileits-button two service">
-            <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">Read More »</a>
-          </div>
-        </div>
-        <div style="border: 10px solid gold;
-   background: gold;
-   border-radius: 20px;
-   padding: 0;" class="col-md-6 about_agileinfo_grid_imgs">
-          <img style="border: 15px solid white;
-   border-radius: 20px;"  src="{{ asset('website/images/vinayka.jpg') }}" alt="" />
-          
-        </div>
-        <div class="clearfix"></div>
+      <div class="modal-footer d-flex justify-content-center">
+      
       </div>
     </div>
   </div>
-  <!--    <marquee behavior="alternate"><span class="sliding">Officially Temple will start from Mid of February</span></marquee> -->
+</div>
+
+     <div class="about" id="welcome">
+    <div class="container">
+   <div class="wthree_head_section">
+        <h3 class="w3l_header w3_agileits_header two">Siddhivinaayak Temple celebrates New Year on January 1<sup>st</sup> 2019 - 8:00 AM to 11:00 AM</h3> <h4 style="text-align:center;">Ganesha Sahasranama Archana and Sahasra Modaka Pooja<br><br>
+
+
+
+<div class="">
+
+<h5><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZDWEKXTHFDBE&source=url" target="_blank"><span style="font-size: 18px;padding: 10px; margin-top: 5px;" class="label label-primary"> Sponsorship $51</span></a></h5><br>
+
+
+    <button style="border-radius: 13px;" data-toggle="modal" data-target="#modalRegisterForm" class="button2" style="">&nbsp;&nbsp;&nbsp;Sankalpa Form &nbsp;&nbsp;&nbsp;</button> 
+
+</div>
+
+
+          <!-- <div class="col-md-6" style="margin-top: 10px;"><u><a  " target="_blank" style="border:1px solid #fff;border-radius:20px;text-align:center;color:orangered;" href="https://goo.gl/maps/G2YPA4vcEtv"><span class="blink" style="font-size: 15px; color: gold;padding-top:-10px;">Click for Driving Direction to Temple</span> </a></u></div> -->
+          
+      
+           <!-- <div class="col-md-6" style="margin-bottom: 10px;"><u><a  " target="_blank" style="border:1px solid #fff;border-radius:20px;text-align:center;color:orangered;" href="https://siddhivinaayak.us12.list-manage.com/subscribe?u=97febd378bf46b8e602f27c78&id=620fec9917"><span class="blink" style="font-size: 15px; color: gold;padding-top:-10px;" >Click here for Volunteer sign up</span> </a></u>
+           </div> -->
+              </h4>
+            <div class="clearfix"></div>
+          
+          
+      </div>
+     <div class="clearfix"></div>
+     
+
+       
+
+        <div class="col-md-10 col-md-offset-1 about_agileinfo_grid_imgs1">
+ 
+  <center>   <img src="{{ asset('website/images/newyear1.jpg') }}" alt="Sri Ganesh" />
+      
+       
+ 
+       
+     </div> 
+     
+ 
     <div class="banner-bottom">
     <div class="container">
       <div class="col-md-4 agileits_banner_bottom_left">
@@ -79,8 +144,7 @@ further.</p>
             </div>
             <div class="col-xs-9 wthree_banner_bottom_grid_right">
               <h4>Services</h4>
-              <p style="
-              color: #000;"> Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!</p>
+              <p> Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!</p>
               {{-- <div class="agileits-button two">
                 <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">Read More »</a>
               </div> --}}
@@ -99,8 +163,7 @@ further.</p>
             </div>
             <div class="col-xs-9 wthree_banner_bottom_grid_right">
               <h4>Educational</h4>
-              <p style="
-              color: #000;"> The temple spearheads in promoting the learning of our scriptures and Sanskrit language. Classes are held regularly to teach children and adults various slokas, stotras, Ramayanam, Bhagavatam etc.</p>
+              <p> The temple spearheads in promoting the learning of our scriptures and Sanskrit language. Classes are held regularly to teach children and adults various slokas, stotras, Ramayanam, Bhagavatam etc.</p>
               {{-- <div class="agileits-button two">
                 <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">Read More »</a>
               </div> --}}
@@ -119,8 +182,7 @@ further.</p>
             </div>
             <div class="col-xs-9 wthree_banner_bottom_grid_right">
               <h4>Mission</h4>
-              <p style="
-              color: #000;">Promote Hindu traditions, values, culture and heritage including music, dance, slokas and sanskrit among the current and future generations</p>
+              <p>Promote Hindu traditions, values, culture and heritage including music, dance, slokas and sanskrit among the current and future generations</p>
               {{-- <div class="agileits-button two">
                 <a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button">Read More »</a>
               </div> --}}
@@ -250,12 +312,13 @@ further.</p>
     <div class="agile_w3_video">
     <div class="video-grid-single-page-agileits">
    {{--    <iframe width="100%" height="400" src="https://www.youtube.com/embed/_oOQ5UYKAKo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> --}}
-      <iframe width="100%" height="380" src="https://www.youtube.com/embed/TrJ3INVpWvU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      <iframe width="100%" height="380" src="https://www.youtube.com/embed/rEM7X7e5bVo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
 
 
   
+
 
   
   

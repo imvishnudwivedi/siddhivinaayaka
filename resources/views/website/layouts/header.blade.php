@@ -13,8 +13,8 @@
             <span class="icon-bar"></span>
           </button>
         
-<a class=" navbar-brand" href="{{URL::route('home')}}" style="padding: 0px;"><img style="width: 96px; height: 96px;" src="{{ asset('website/images/logo_final_Copy.jpg') }}"></a>
-<a class=" navbar-brand1" href="{{URL::route('home')}}" style="padding: 0px;"><img style="width: 70px; height: 70px;" src="{{ asset('website/images/logo_final_Copy.jpg') }}"></a>
+<a class=" navbar-brand" href="{{URL::route('home')}}" style="padding: 0px;"><img style="width: 96px; height: 96px;" alt="Sri Ganesh" src="{{ asset('website/images/logo_final_Copy.jpg') }}" ></a>
+<a class=" navbar-brand1" href="{{URL::route('home')}}" style="padding: 0px;"><img style="width: 70px; height: 70px;" alt="Sri Ganesh" src="{{ asset('website/images/logo_final_Copy.jpg') }}" ></a>
 
     <!-- div class="col-md-3">
 <a class="navbar-brand" href="#hero-area"><img src="website/images/logo_mobile.png"></a>

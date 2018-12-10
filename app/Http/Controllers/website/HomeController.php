@@ -6,7 +6,12 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\FolderController;
+use App\Http\Controllers\GalleryController;
 use App\Models\subscribe;
+use App\Models\sankalpa;
+use App\Models\masters\Folder;
+use App\Models\masters\Gallery;
 
 use DB;
 use Response;
@@ -41,13 +46,18 @@ class HomeController extends Controller
   
    public function gallery_folder()
   {
+      $folder = Folder::get();
 
-    return view('website.gallery_folder');
+    return view('website.gallery_folder')->with('folder', $folder);;
   }
-   public function gallery()
+   public function gallery($id)
   {
+    $folder  = Folder::where('id', $id)->get();
+    // dd($folder);
+        $gallery = Gallery::where('folder_id', $id)->where('push_pull_flag', '=', 1)->get();
+        return view('website.gallery')->with('gallery', $gallery)->with('folder', $folder);
 
-    return view('website.gallery');
+
   }
    public function hawan()
   {
@@ -101,6 +111,14 @@ class HomeController extends Controller
     $subscribe=DB::table('subscribes')->orderBy('id', 'desc')->get();
 
     return view('website.subscribe')->with('country_deatils', $country_deatils)->with('subscribe', $subscribe);
+  }
+   public function sankalpa()
+  {
+   
+    $sankalpa=DB::table('sankalpa')->orderBy('id', 'desc')->get();
+    // dd($sankalpa);
+
+    return view('website.sankalpa')->with('sankalpa', $sankalpa);
   }
   
 
@@ -156,6 +174,48 @@ $country_deatils=DB::table('countries')->where('id','=',$request->countries_id)-
           return redirect()->back()->with('message','Successfully Added')->with('er_type','success'); 
    
     }
+     public function postSankalpa(Request $request)
+    {
+
+        $data=$request->all();
+
+
+      $data = array(
+           'name'   => $request->name,
+           'gotra' => $request->gotra,
+           'nakshatra' => $request->nakshatra,
+           'rashi' => $request->rashi,
+           'email'  =>  $request->email,
+           'phone_number'  =>$request->phone_number,
+           
+         );
+      // dd($data);
+
+       Mail::send('website.sankalpa_request', $data, function($message)
+       {
+           $message->to("siddhivinaayak2017@gmail.com")->subject('Contact form submission');
+       });
+
+      
+
+
+    $sankalpa = new sankalpa;
+    $sankalpa->name=$request->name;
+    $sankalpa->gotra=$request->gotra;
+    $sankalpa->nakshatra=$request->nakshatra;
+    $sankalpa->rashi=$request->rashi;
+    $sankalpa->email=$request->email;
+    $sankalpa->phone_number=$request->phone_number;
+ 
+   
+
+      
+        $sankalpa->save();
+
+          return redirect()->back()->with('message','Successfully Added')->with('er_type','success'); 
+   
+    }
+
 
 
  
