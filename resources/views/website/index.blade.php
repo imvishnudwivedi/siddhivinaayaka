@@ -14,6 +14,53 @@
   -webkit-animation-timing-function:ease-in-out;
   -webkit-animation-direction: alternate;
 }
+
+marquee { background: orangered; }
+
+.rightTI { background: #ff002b;
+  white-space: nowrap; 
+  overflow: hidden;
+  animation: marquee 18s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  0% {text-indent: 100%;}
+  100% {text-indent: -100%;}
+}
+
+.rightCSS { background: orangered;
+  overflow: hidden;
+} .rightCSS div {
+  position: relative;
+  animation: CSSright linear 18s infinite;
+} @keyframes CSSright {
+  0% { right: -100% }
+  100% { right: 100% }
+}
+
+.rightJS { background: orangered; }
+
+.rightJQ { background: orangered; }
+
+.li {
+  font-size: 25px;
+  font-weight: 600;
+
+  color: #fff;
+  float: left;
+  width: 80%;
+  padding: 1%;
+  margin: 1% 10%;
+ /* height: 20px;*/
+  border-radius: 0.5em;
+  box-shadow: 0 0.1em 0.5em;
+
+}
+
+.li:hover {
+   animation-play-state: paused
+}
+
   </style>
   <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
@@ -93,26 +140,29 @@
      <div class="about" id="welcome">
     <div class="container">
    <div class="wthree_head_section">
-        <h3 class="w3l_header w3_agileits_header two">Siddhivinaayak Temple celebrates New Year on January 1<sup>st</sup> 2019 - 8:00 AM to 11:00 AM</h3> <h4 style="text-align:center;">Ganesha Sahasranama Archana and Sahasra Modaka Pooja<br><br>
+
+<h3 class="w3l_header w3_agileits_header two">Ganesh jayanti Celebration</h3>
+    <marquee class="li" direction=”right”>★ On  9th Feb 2018 , Saturday 10 am to 12 pm , Ganesha Atharvashirsha by Kids  , followed by annadan bhojan ★</marquee>
+        <h3 class="w3l_header w3_agileits_header two">Siddhivinaayak Temple Celebrating Maha Shivaratri</h3>
 
 
 
 <div class="">
 
-<h5><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZDWEKXTHFDBE&source=url" target="_blank"><span style="font-size: 18px;padding: 10px; margin-top: 5px;" class="label label-primary"> Sponsorship $51</span></a></h5><br>
+<!-- <h5><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZDWEKXTHFDBE&source=url" target="_blank"><span style="font-size: 18px;padding: 10px; margin-top: 5px;" class="label label-primary"> Sponsorship $51</span></a></h5><br>
 
 
-    <button style="border-radius: 13px;" data-toggle="modal" data-target="#modalRegisterForm" class="button2" style="">&nbsp;&nbsp;&nbsp;Sankalpa Form &nbsp;&nbsp;&nbsp;</button> 
+    <button style="border-radius: 13px;" data-toggle="modal" data-target="#modalRegisterForm" class="button2" style="">&nbsp;&nbsp;&nbsp;Sankalpa Form &nbsp;&nbsp;&nbsp;</button>  -->
 
 </div>
 
 
-          <!-- <div class="col-md-6" style="margin-top: 10px;"><u><a  " target="_blank" style="border:1px solid #fff;border-radius:20px;text-align:center;color:orangered;" href="https://goo.gl/maps/G2YPA4vcEtv"><span class="blink" style="font-size: 15px; color: gold;padding-top:-10px;">Click for Driving Direction to Temple</span> </a></u></div> -->
+         <!--  <div class="col-md-6" style="margin-top: 10px;"><u><a  " target="_blank" style="border:1px solid #fff;border-radius:20px;text-align:center;color:orangered;" href="https://goo.gl/maps/G2YPA4vcEtv"><span class="blink" style="font-size: 15px; color: gold;padding-top:-10px;">Click for Driving Direction to Temple</span> </a></u></div>
           
       
-           <!-- <div class="col-md-6" style="margin-bottom: 10px;"><u><a  " target="_blank" style="border:1px solid #fff;border-radius:20px;text-align:center;color:orangered;" href="https://siddhivinaayak.us12.list-manage.com/subscribe?u=97febd378bf46b8e602f27c78&id=620fec9917"><span class="blink" style="font-size: 15px; color: gold;padding-top:-10px;" >Click here for Volunteer sign up</span> </a></u>
+           <div class="col-md-6" style="margin-bottom: 10px;"><u><a  " target="_blank" style="border:1px solid #fff;border-radius:20px;text-align:center;color:orangered;" href="https://siddhivinaayak.us12.list-manage.com/subscribe?u=97febd378bf46b8e602f27c78&id=620fec9917"><span class="blink" style="font-size: 15px; color: gold;padding-top:-10px;" >Click here for Volunteer sign up</span> </a></u>
            </div> -->
-              </h4>
+             <!--  </h4> -->
             <div class="clearfix"></div>
           
           
@@ -122,14 +172,15 @@
 
        
 
-        <div class="col-md-10 col-md-offset-1 about_agileinfo_grid_imgs1">
+        <div class="col-md-8 col-md-offset-2 about_agileinfo_grid_imgs1">
  
-  <center>   <img src="{{ asset('website/images/newyear1.jpg') }}" alt="Sri Ganesh" />
+  <center>   <img src="{{ asset('website/images/maha.jpeg') }}" alt="Sri Ganesh" />
       
        
- 
+ <div class="clearfix"></div>
        
      </div> 
+     <div class="clearfix"></div>
      
  
     <div class="banner-bottom">
@@ -326,6 +377,77 @@
 
 @section('script')
 @parent
+
+ <script type="text/javascript">
+      
+      /* Vanilla JS */
+
+var rightJS = {
+  init: function(){
+    rightJS.Tags = document.querySelectorAll('.rightJS');
+    for(var i = 0; i < rightJS.Tags.length; i++){
+      rightJS.Tags[i].style.overflow = 'hidden';
+    }
+    rightJS.Tags = document.querySelectorAll('.rightJS div');
+    for(var i = 0; i < rightJS.Tags.length; i++){
+      rightJS.Tags[i].style.position = 'relative';
+      rightJS.Tags[i].style.right = '-'+rightJS.Tags[i].parentElement.offsetWidth+'px';
+    }
+    rightJS.loop();
+  },
+  loop: function(){
+    for(var i = 0; i < rightJS.Tags.length; i++){
+      var x = parseFloat(rightJS.Tags[i].style.right);
+      x ++;
+      var W = rightJS.Tags[i].parentElement.offsetWidth;
+      var w = rightJS.Tags[i].offsetWidth;
+      if((x/100) * W  > w) x = -W;
+      rightJS.Tags[i].style.right = x + 'px';
+    } 
+    requestAnimationFrame(this.loop.bind(this));
+  }
+};
+window.addEventListener('load',rightJS.init);
+
+/* JQUERY */
+
+$(function(){
+  var rightJQ = {
+    init: function(){
+    $('.rightJQ').css({
+        overflow: 'hidden'
+      });
+      rightJQ.loop();
+    },
+    loop: function(){
+      $('.rightJQ div').css({
+        position: 'relative',
+        right: '-100%'
+      }).animate({
+        right: '100%'
+      }, 15000, 'linear' );
+      setTimeout(rightJQ.loop, 15010);
+    }
+  };
+  rightJQ.init();
+});
+
+
+    </script>
+    <script type="text/javascript">
+      
+      var marquee = document.querySelector('.li');
+marquee.addEventListener('mouseover', (e)=>{
+  marquee.style['animation-play-state'] = 'paused';
+})
+
+marquee.addEventListener('mouseout', (e)=>{
+  marquee.style['animation-play-state'] = 'running';
+})
+    </script>
+
+
+
 
 
 @endsection

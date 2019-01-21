@@ -27,61 +27,82 @@
 
 </div>
       <div class="wthree_head_section">
-       <h3 class="w3l_header w3_agileits_header two" style="color:#000;">New Year Celebration</h3>
+       <h3 class="w3l_header w3_agileits_header two" style="color:#000;">Siddhivinaayak Temple</h3>
 
       </div>
 
       <div class="agile_wthree_inner_grids">
-      <center>  <h5 style="color: #000 ; font-size: 30px;">Start the new year on the right note with the blessings of Sri Ganesha</h5></center> 
+      <center>  <h5 style="color: #000 ; font-size: 30px;">Siddhivinaayak Temple Celebrating Maha Shivaratri</h5>
+        <h6 style="color: #000 ; font-size: 25px;">Monday March 4 , 2019 Time 06:00 PM to 08:00 PM</h6></center> 
       <hr style="border-top: 2px solid #ffb500;
     display: block;
     width: 500px;
     content: "";
     margin: 8px auto 0;">
 
-        <div class="col-md-6 col-md-offset-3 about_agileinfo">
-           <div class="table-responsive">
+      <div class="col-md-8 about_agileinfo_grid_imgs">
+
+
+        
+          
+           <center style="margin-top: 10px;">
+                    
+                   
+                    
+                      <!--  <h3 style="margin-top: 0; color: #000;">Monday March 4 , 2019 Time 06:00 PM to 08:00 PM </h3> -->
+                        <br>
+                        </center>
+
+
+                    <div class="table-responsive">
                     <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Date</th>
-                                <th>Day</th>
-                                <th>Time</th>
-                               
-                                <th>Description</th>
-                                 
-                                 
-                                
-                            </tr>
-                        </thead>
+                 
                         <tbody style="color: #000;">
-                            <tr>
-                                <td style="color: #000;">1/11/2018</td>
-                                <td style="color: #000;">Tuesday</td>
-                                <td style="color: #000;">8.00 AM</td>
-                                <td style="color: #000;">SAHASRA NAAMA ARCHANA</td>
-                                
+
+                           <tr>
+                               
+                                <td style="color: #000;">Maha Shivratri </td>
+                                <td style="color: #000;">From 06:00 PM – 08:00 PM</td>
                                
                             </tr>
                             <tr>
-                                <td style="color: #000;">1/11/2018</td>
-                                <td style="color: #000;">Tuesday</td>
-                                <td style="color: #000;">9.00 AM</td>
-                                <td style="color: #000;">SAHARSRA MODAKA POOJA</td>
+                                
+                                <td style="color: #000;">Satsang & Celebration</td>
+                                <td style="color: #000;">From 06:00 PM – 07:30 PM</td>
                                
+                            </tr>
+                            <tr>
+                                
+                                <td style="color: #000;">Bhog Chanting & Aarti</td>
+                                <td style="color: #000;">From 07:30 PM – 08:00 PM</td>
                                 
                             </tr>
-                            
-                            
+                             <tr>
+                                
+                                <td style="color: #000;">Mahaprasad</td>
+                                <td style="color: #000;">08:00 PM</td>
+                                
+                            </tr>
+                             
+
                            
 
                           
                         </tbody>
                     </table>
-                  </div>
 
+        
+                    </div>
                
-            </div>
+                </div>
+
+                <div class="col-md-4 about_agileinfo_grid_imgs">
+
+          <img   src="website/images/maha1.png" alt="vinayka" />
+        </div>
+
+
+       
 
              
 
@@ -145,7 +166,7 @@
                         </tbody>
                     </table>
 
-                   <a href="website/images/2018festivalList.pdf" target="_blank">  <h4 style="background-color: orangered; font-size: 22px;">  Click here to Download 2018 Festival List </h4>   </a>
+                   <a href="website/images/2019calendar.pdf" target="_blank">  <h4 style="background-color: orangered; font-size: 22px;">  Click here to Download 2019 Festival List </h4>   </a>
                     </div>
                
                 </div>
