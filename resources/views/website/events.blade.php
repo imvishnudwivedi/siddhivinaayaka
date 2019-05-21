@@ -32,15 +32,16 @@
       </div>
 
       <div class="agile_wthree_inner_grids">
-      <center>  <h5 style="color: #000 ; font-size: 30px;">Siddhivinaayak Temple Celebrating Maha Shivaratri</h5>
-        <h6 style="color: #000 ; font-size: 25px;">Monday March 4 , 2019 Time 06:00 PM to 08:00 PM</h6></center> 
+      <center>  <h5 style="color: #000 ; font-size: 30px;">Dattatreya Mahayagya first time in US!!</h5>
+        <h6 style="color: #000 ; font-size: 25px;">On Saturday, June 15th 2019
+</h6></center> 
       <hr style="border-top: 2px solid #ffb500;
     display: block;
     width: 500px;
     content: "";
     margin: 8px auto 0;">
 
-      <div class="col-md-8 about_agileinfo_grid_imgs">
+      <div class="col-md-12 about_agileinfo_grid_imgs">
 
 
         
@@ -49,7 +50,10 @@
                     
                    
                     
-                      <!--  <h3 style="margin-top: 0; color: #000;">Monday March 4 , 2019 Time 06:00 PM to 08:00 PM </h3> -->
+                       <h3 style="margin-top: 0; color: #000;">Be a part of this “icchapoorti” yagya that grants all wishes !!</h3>
+                        <br>
+                         <h3 style="margin-top: 0; color: #000;">“Om Datta Unity” and “Siddhivinayak Temple” persent the Dattatreya Mahayagya Mega event!!
+</h3>
                         <br>
                         </center>
 
@@ -61,28 +65,14 @@
 
                            <tr>
                                
-                                <td style="color: #000;">Maha Shivratri </td>
+                                <td style="color: #000;">June 15th 2019
+,Saturday </td>
                                 <td style="color: #000;">From 06:00 PM – 08:00 PM</td>
+
                                
                             </tr>
-                            <tr>
-                                
-                                <td style="color: #000;">Satsang & Celebration</td>
-                                <td style="color: #000;">From 06:00 PM – 07:30 PM</td>
-                               
-                            </tr>
-                            <tr>
-                                
-                                <td style="color: #000;">Bhog Chanting & Aarti</td>
-                                <td style="color: #000;">From 07:30 PM – 08:00 PM</td>
-                                
-                            </tr>
-                             <tr>
-                                
-                                <td style="color: #000;">Mahaprasad</td>
-                                <td style="color: #000;">08:00 PM</td>
-                                
-                            </tr>
+                           
+                             
                              
 
                            
@@ -93,14 +83,26 @@
 
         
                     </div>
+                    <div class="col-md-12">
+                      <center>Note * : including yagya, breakfast, bhajans, and lunch. Childcare will be provided!</center>
+
+                      <center>Location : <b>Siddhivinayak Temple 1003 Stewart Ln NE, Glen Burnie, MD 21060</b></center>
+                         <center>Facebook Group :facebook.com/ShreeDattaMahayagyaUsa
+
+</center>
+<center><b>Make use of this unique opportunity to be a part of the 108 lucky couples who get to perform this “icchapoorti” yagya which grants all wishes – be it money, health, love, peace, or prosperity!!</b>
+
+
+</center>
+                    </div>
                
                 </div>
-
+<!-- 
                 <div class="col-md-4 about_agileinfo_grid_imgs">
 
-          <img   src="website/images/maha1.png" alt="vinayka" />
+          <img   src="website/images/holi.jpg" alt="vinayka" />
         </div>
-
+ -->
 
        
 

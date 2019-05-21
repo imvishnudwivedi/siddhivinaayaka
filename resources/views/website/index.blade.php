@@ -137,14 +137,15 @@ marquee { background: orangered; }
   </div>
 </div>
 
-     <div class="about" id="welcome">
+     <div class="about" id="welcome" style="  background: darkgoldenrod;">
     <div class="container">
    <div class="wthree_head_section">
 
-<h3 class="w3l_header w3_agileits_header two">Ganesh jayanti Celebration</h3>
-    <marquee class="li" direction=”right”>★ On  9th Feb 2018 , Saturday 10 am to 12 pm , Ganesha Atharvashirsha by Kids  , followed by annadan bhojan ★</marquee>
-        <h3 class="w3l_header w3_agileits_header two">Siddhivinaayak Temple Celebrating Maha Shivaratri</h3>
-
+<h3 class="w3l_header w3_agileits_header two">Dattatreya Mahayagya first time in US !!</h3>
+    <marquee class="li" direction=”right”>★ On Saturday, June 15th 2019 ★</marquee>
+      <!--   <h3 class="w3l_header w3_agileits_header two">Be a part of this “icchapoorti” yagya that grants all wishes!!
+</h3>
+ -->
 
 
 <div class="">
@@ -174,13 +175,25 @@ marquee { background: orangered; }
 
         <div class="col-md-8 col-md-offset-2 about_agileinfo_grid_imgs1">
  
-  <center>   <img src="{{ asset('website/images/maha.jpeg') }}" alt="Sri Ganesh" />
+  <center>   <img src="{{ asset('website/images/Datta_flyer_Final.jpg') }}" alt="Sri Ganesh" />   </center>
+      
+       
+
+       
+     </div> 
+
+
+     <div class="col-md-3 col-md-offset-7 about_agileinfo_grid_imgs1">
+ 
+  <center>   <img src="{{ asset('website/images/womens.jpeg') }}" alt="Sri Ganesh" /> </center>
       
        
  <div class="clearfix"></div>
        
      </div> 
      <div class="clearfix"></div>
+   </div>
+
      
  
     <div class="banner-bottom">
