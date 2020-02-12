@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('page_title', 'Siddhivinaayak Temple - About Page')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
 @section('content')
 
 
@@ -19,6 +24,7 @@
     <div class="container">
       <div class="wthree_head_section">
         <h3 class="w3l_header w3_agileits_header two">Welcome to  <span>Siddhivinaayak Temple</span></h3>
+        <h1></h1>
       </div>
       <div class="agile_wthree_inner_grids">
 
@@ -94,7 +100,7 @@
 
 
   <div class="admin">
-    <h3>WHY DO WE NEED ANOTHER TEMPLE IN THE GREATER DC AREA?</h3>
+    <h3 style="color: #fff;">WHY DO WE NEED ANOTHER TEMPLE IN THE GREATER DC AREA?</h3>
     <ol>
           <p>Primarily for the convenience of people residing in Ellicott City/Clarksville/Columbia there is a great unmet need that is not being currently served by other temples in the area due to the fact that the closest temple is 45 minutes away</p>
          

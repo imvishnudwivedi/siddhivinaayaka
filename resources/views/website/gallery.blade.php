@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('page_title', 'Siddhivinaayak Temple - Gallery Page')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
 @section('content')
 
 
@@ -25,10 +30,10 @@
           
           @foreach($gallery as $g) 
             <div class="col-md-3">
-            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="{{$g->gallery_name}}" data-caption="" data-image="{{asset($g->gallery_display_attachment)}}" data-target="#image-gallery">
+            <a class="thumbnail" href="#" style="height:240px;" data-image-id="" data-toggle="modal" data-title="{{$g->gallery_name}}" data-caption="" data-image="{{asset($g->gallery_display_attachment)}}" data-target="#image-gallery">
              
-                <img class="img-responsive" src="{{asset($g->gallery_display_attachment)}}" alt="Another alt text">
-              <center>  <caption>{{$g->gallery_name}}</caption></center>
+                <img class="img-responsive" src="{{asset($g->gallery_display_attachment)}}" style="height:240px;" alt="Another alt text">
+              
             </a>
         </div>
          @endforeach

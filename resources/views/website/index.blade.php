@@ -1,4 +1,10 @@
 @extends('website.layouts.main')
+
+
+@section('page_title', 'Siddhivinaayak Temple - Home')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
 @section('content')
 
 <style type="text/css">
@@ -136,13 +142,30 @@ marquee { background: orangered; }
     </div>
   </div>
 </div>
+<ul class="rslides" id="slider">
+  <li style="background:darkgoldenrod;"><video width="100%" height="540" id="slider_video" style="text-align:center;"  controls >
+<source src="{{ asset('website/video_about temple.mp4') }}" type="video/mp4">
 
-     <div class="about" id="welcome" style="  background: darkgoldenrod;">
+
+</video></li>
+  
+
+</ul>
+<!--darkgoldenrod-->
+ 
+     <div class="about" id="welcome" style="  background: ;">
     <div class="container">
    <div class="wthree_head_section">
 
-<h3 class="w3l_header w3_agileits_header two">Dattatreya Mahayagya first time in US !!</h3>
-    <marquee class="li" direction=”right”>★ On Saturday, June 15th 2019 ★</marquee>
+<!--<h3 class="w3l_header w3_agileits_header two">Chalees Diwasey Mahayagya</h3>-->
+
+<!--<h3 class="w3l_header w3_agileits_header two">New Year's Day Celebration - Whole Day Temple Will Be Open On January 1st</h3>-->
+<h3 class="w3l_header w3_agileits_header two">Bhoomi Pooja & Preliminary Jaladhivasa</h3>
+
+<h1></h1>
+   <a href="https://siddhivinaayak.org/donation" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Know More ★</a> </marquee></a>
+   
+     <!--<a href="{{ asset('website/images/Appeal.pdf') }}" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Appeal Letter ★</a> </marquee></a>-->
       <!--   <h3 class="w3l_header w3_agileits_header two">Be a part of this “icchapoorti” yagya that grants all wishes!!
 </h3>
  -->
@@ -173,20 +196,78 @@ marquee { background: orangered; }
 
        
 
+  <!--      <div class="col-md-8 col-md-offset-2 about_agileinfo_grid_imgs1">-->
+ 
+  <!--<center>   <img src="{{ asset('website/images/mahayaga.jpeg') }}" alt="Sri Ganesh" />   </center>-->
+      
+       
+  <center>   <img src="{{ asset('website/images/ShaniMandir.png') }}" alt="Sri Ganesh" / style="width:700px; height:800px;">   </center>
+       
+  <!--   </div> -->
+
+
+   
+   
+   
+     
+
+<!--        <div class="col-md-12 about_agileinfo_grid_imgs1">-->
+ 
+<!--<center>-->
+<!-- <div class="col-md-12">-->
+<!--  <img src="{{ asset('website/images/mahayaga.jpeg') }}" alt="Sri Ganesh" height="700px;" /> -->
+     
+<!--</div>-->
+
+
+
+
+
+<!--    <div class="col-md-6"> -->
+<!--      <img src="{{ asset('website/images/sani_mandir.jpeg') }}" alt="Sri Sani Mandir" height="600px;" />  -->
+<!--</div>-->
+
+
+
+
+     <!--  </center>-->
+     <!--</div> -->
+
+
+   
+<!-- 
+  <div class="clearfix"><br><br></div>
+<br><br>
+
         <div class="col-md-8 col-md-offset-2 about_agileinfo_grid_imgs1">
  
-  <center>   <img src="{{ asset('website/images/Datta_flyer_Final.jpg') }}" alt="Sri Ganesh" />   </center>
+  <center>   <img src="{{ asset('website/images/sanimandir.jpeg') }}" alt="Sri Ganesh" />   </center>
       
        
 
        
-     </div> 
+     </div>  -->
 
 
-     <div class="col-md-3 col-md-offset-7 about_agileinfo_grid_imgs1">
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
  
-  <center>   <img src="{{ asset('website/images/womens.jpeg') }}" alt="Sri Ganesh" /> </center>
-      
+
        
  <div class="clearfix"></div>
        
@@ -373,12 +454,12 @@ marquee { background: orangered; }
   </div>
 
     
-    <div class="agile_w3_video">
+    <!-- <div class="agile_w3_video">
     <div class="video-grid-single-page-agileits">
    {{--    <iframe width="100%" height="400" src="https://www.youtube.com/embed/_oOQ5UYKAKo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> --}}
       <iframe width="100%" height="380" src="https://www.youtube.com/embed/rEM7X7e5bVo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
-  </div>
+  </div> -->
 
 
   
@@ -394,7 +475,7 @@ marquee { background: orangered; }
  <script type="text/javascript">
       
       /* Vanilla JS */
-
+      document.getElementById('slider_video').play();
 var rightJS = {
   init: function(){
     rightJS.Tags = document.querySelectorAll('.rightJS');

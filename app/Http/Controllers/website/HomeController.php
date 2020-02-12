@@ -218,7 +218,18 @@ $country_deatils=DB::table('countries')->where('id','=',$request->countries_id)-
 
 
 
+    public function satyanarayana_marathe()
+    {
+  
+      return view('website.satyanarayana_marathe');
+    }
  
-
+ 
+  public function satyanarayana_marathe_priest()
+    {
+  
+      return view('website.satyanarayana_marathe_priest');
+    }
+ 
 
 }

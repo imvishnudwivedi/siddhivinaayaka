@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('page_title', 'Siddhivinaayak Temple - Priests Page')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
 @section('content')
 
 
@@ -19,6 +24,7 @@
 		<div class="banner_bottom_w3ls_info">
 			<div class="wthree_head_section">
 				<h3 class="w3l_header w3_agileits_header">Our <span>Priest </span></h3>
+        <h1></h1>
 			</div>
 			<hr>
 			<h2>Sri Satyanarayana Marathe is Vedic Priest</h2>

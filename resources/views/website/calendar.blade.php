@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('page_title', 'Siddhivinaayak Temple - Calendar Page')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
 @section('content')
 
 <div class="about" id="welcome">
@@ -34,7 +39,7 @@
  </div>
 
 
-
+<h1></h1>
 
 
 @endsection

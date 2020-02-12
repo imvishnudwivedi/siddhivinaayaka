@@ -118,8 +118,8 @@ Route::group(['namespace'=>'website'], function () {
                    Route::get('/sankalpa',['as' => 'sankalpa','uses'=>'HomeController@sankalpa']);
                    Route::post('/sankalpa',['as' => 'sankalpa.posts','uses'=>'HomeController@postSankalpa']);
              
-    
-
+       Route::get('/satyanarayana_marathe',['as' => 'satyanarayana_marathe','uses'=>'HomeController@satyanarayana_marathe']);
+ Route::get('/satyanarayana_marathe_priest',['as' => 'satyanarayana_marathe_priest','uses'=>'HomeController@satyanarayana_marathe_priest']);
 
   
     Route::post('searchItem',array('as'=>'searchItem','uses'=>'HomeController@searchItem')) ;

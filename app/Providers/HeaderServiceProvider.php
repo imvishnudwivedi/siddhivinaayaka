@@ -2,7 +2,8 @@
 
 namespace App\Providers;
 use App\Models\masters\Category;
-
+use App\Models\masters\SubCategory;
+use App\Models\masters\Item;
 use Auth;
 use View;
 use DB;
@@ -18,7 +19,17 @@ class HeaderServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-   
+         View::composer('website/layouts/*', function($view){
+            $category=Category::get();
+            foreach($category as $c){
+             $sub_category=SubCategory::where('category_id',$c->id)->get();
+             $c->sub_category=$sub_category->toArray();
+     }
+        
+     
+    // dd($category->toArray());
+     $view->with('category', $category);
+        });
      
     }
 

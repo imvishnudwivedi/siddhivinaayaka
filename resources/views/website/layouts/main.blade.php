@@ -3,18 +3,21 @@
 <html lang="en" class="js no-touch backgroundsize csstransforms3d csstransitions" style="padding:0;">
 
 <head>
-
-<title>Welcome to Siddhivinaayak Temple</title>
+   <title> @yield('page_title',"Siddhivinaayak Temple")</title>
+<!-- <title>Welcome to Siddhivinaayak Temple</title> -->
  <meta charset="utf-8">
 
   <!-- custom-theme -->
-   <meta name="Description" content="Lord Ganesha is the chief deity of this powerful Pooja at 1003 Stewart LN , NE Glen Burnie, MD.21060"/>
+   <!-- <meta name="Description" content="Lord Ganesha is the chief deity of this powerful Pooja at 1003 Stewart LN , NE Glen Burnie, MD.21060"/> -->
+
+  <meta name="description" content="@yield('description')">
+
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="author" content="Marathe">
-  <link rel="canonical" href="http://siddhivinaayak.org/">
 
   <meta name="keywords" content="Promote Hindu traditions, values, culture and heritage including music" />
   <link rel="shortcut icon" type="image/x-icon" href="{{ asset('website/images/logo_final_Copy.jpg') }}">

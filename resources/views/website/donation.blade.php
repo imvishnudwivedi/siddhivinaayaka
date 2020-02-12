@@ -1,4 +1,10 @@
 @extends('website.layouts.main')
+
+
+@section('page_title', 'Siddhivinaayak Temple - Donation Page')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
 @section('content')
 
 
@@ -17,9 +23,47 @@
 <div class="container">
 
 <div class="grid_3 grid_5 wthree">
-                  <center> <h3>PLEASE DONATE GENEROUSLY TO SUPPORT YOUR TEMPLE!</h3> </center> 
+                  <center> <h3>PLEASE DONATE GENEROUSLY TO SUPPORT YOUR TEMPLE!
+                  
+              
+
+                
+                  
+                  </h3> </center> 
+                  
+               
+
+
+                  
+
+                    	
+
+                        
+                    </div>
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
                     <div class="col-md-12 agileits-w3layouts">
-                        <h4><b>DONATIONS TOWARDS TEMPLE UPCOMING PROJECTS:</b></h4>
+                        <h4 style="color:#3D3187;"><b>DONATIONS TOWARDS TEMPLE UPCOMING PROJECTS:</b>  <span style="margin-left:430px;"> <a href="{{ asset('website/images/Appeal.pdf') }}" target="_blank"><span style="font-size: 20px; background-color: orange;" class="button2"><b> Appeal Letter</b></span></a></span></h4><br>
+                      
+                      
+                      
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
@@ -39,12 +83,43 @@
                                     <th>Donate 50 cents per day for a month - $15</th>
                                     <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQY8J53ZAFD5L" target="_blank"><span class="badge"> $ 0.5 </span></a></th>
                                 </tr>
-                              
+                                
+                                
+                                
+                                  <tr>
+                                    <th> FundRaising Campaign - Construction Work </th>
+                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P6YW8L85C9S82"" target="_blank"><span class="badge"> $251 </span></a></th>
+                                </tr>
+                                
+                                
+                                 <tr>
+                                    <th> FundRaising Campaign - Construction Work </th>
+                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=99F7YEZA8JPYN"" target="_blank"><span class="badge"> $1000 </span></a></th>
+                                </tr>
+                                
+                                 <tr>
+                                    <th> FundRaising Campaign - Construction Work </th>
+                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3UEGWADBK2R2Q"" target="_blank"><span class="badge"> $3000 </span></a></th>
+                                </tr>
+                                
+                                 <tr>
+                                    <th> FundRaising Campaign - Construction Work </th>
+                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ANDYRKHGYKV4"" target="_blank"><span class="badge"> $5000 </span></a></th>
+                                </tr>
+                                
+                                  <tr>
+                                    <th> FundRaising Campaign - Construction Work </th>
+                                    <th><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6LHEF9GXGH3K2"" target="_blank"><span class="badge"> $10000 </span></a></th>
+                                </tr>
+                                
+                                
+                             
                             </tbody>
                         </table>
 
                          <center> <h4><b>Donate As per Wish</h4></b> </center> 
  <center> <h5></h5> </center> 
+ <div class="clearfix"><br> </div>
                   <center>   	<h2>
                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BXV2HCHKFSE6S" target="_blank"><span style="font-size: 20px; background-color: orange;" class="button2"><b> Donate</b></span></a>
                <!--  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQY8J53ZAFD5L" target="_blank"><span class="label label-primary"> $0.5</span></a>
@@ -55,7 +130,7 @@
                         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QKXCP5FP3L5KU" target="_blank"><span class="label label-primary"> $100.00</span></a>
                     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VUV2XM7MAY8LJ" target="_blank"><span class="label label-primary"> $500.00</span></a> -->
                      
-                    </h2></center>
+                    </h2>  <div class="clearfix"> <br></div></center>
 
                   {{--   <div class="input-group" style="width: 30%;">
                            <span class="input-group-addon">$</span> <input style="height: 50px;"  type="text" class="form-control" placeholder="" value="">
@@ -190,7 +265,6 @@
 
 			
                      
-
 
 
                     </div>

@@ -1,6 +1,12 @@
 @extends('website.layouts.main')
-@section('content')
 
+@section('page_title', 'Siddhivinaayak Temple - Subscribe Page')
+
+@section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
+
+
+@section('content')
+<h1></h1>
 
 <div class="services-breadcrumb">
     <div class="agile_inner_breadcrumb">
