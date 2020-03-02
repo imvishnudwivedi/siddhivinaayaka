@@ -41,6 +41,10 @@
               <!-- <li><a href="#" class="hvr-ripple-in">Services</a></li> -->
               
               <li class="{{ Request::is('services') ? 'active' : '' }}"><a href="{{URL::route('services')}}" class="hvr-ripple-in">Services</a></li>
+
+              <li class="{{ Request::is('temple_hall_rental') ? 'active' : '' }}"><a href="{{URL::route('temple_hall_rental')}}" class="hvr-ripple-in">Temple Hall Rental</a></li>
+             
+             
               <li class="{{ Request::is('donation') ? 'active' : '' }}"><a href="{{URL::route('donation')}}" class="hvr-ripple-in">Donation</a></li>
            {{--    <li class="{{ Request::is('gallery') ? 'active' : '' }}"> <a href="{{URL::route('gallery')}}" class="hvr-ripple-in">Gallery</a></li> --}}
 

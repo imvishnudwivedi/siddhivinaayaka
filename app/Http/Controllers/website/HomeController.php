@@ -98,7 +98,11 @@ class HomeController extends Controller
     return view('website.services');
   }
   
-  
+  public function temple_hall_rental()
+  {
+
+    return view('website.temple_hall_rental');
+  }
     public function contact()
   {
 

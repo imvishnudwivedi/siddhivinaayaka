@@ -110,7 +110,7 @@ Route::group(['namespace'=>'website'], function () {
             Route::get('/priests',['as' => 'priests','uses'=>'HomeController@priests']);
              Route::get('/services',['as' => 'services','uses'=>'HomeController@services']);
                Route::get('/video',['as' => 'video','uses'=>'HomeController@video']);
-
+               Route::get('/temple_hall_rental',['as' => 'temple_hall_rental','uses'=>'HomeController@temple_hall_rental']);
 
                Route::get('/subscribe',['as' => 'subscribe','uses'=>'HomeController@subscribe']);
                    Route::post('/subscribe',['as' => 'subscribe.posts','uses'=>'HomeController@postSubscribe']);

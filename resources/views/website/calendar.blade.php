@@ -15,22 +15,43 @@
 
         <div class="col-md-12 about_agileinfo_grid_imgs2">
 
-     <center>  <div class="col-md-6 col-md-offset-3"> <a href="website/images/2019calendar.pdf" target="_blank">  <h4 style="background-color: #3D3187; font-size: 22px;">  Click here to Download Calendar </h4>   </a> </div>  </center>
+     <center>  <div class="col-md-6 col-md-offset-3"> <a href="website/images/panchang.pdf" target="_blank">  <h4 style="background-color: #3D3187; font-size: 22px;">  Click here to Download Calendar </h4>   </a> </div>  </center>
+    
  
- <img src="{{ asset('website/images/calendar/01.jpg') }}" alt="Sri Ganesh" />
- <img src="{{ asset('website/images/calendar/02.jpg') }}" alt="Sri Ganesh" />
-  <img src="{{ asset('website/images/calendar/03.jpg') }}" alt="Sri Ganesh" />     
-    <img src="{{ asset('website/images/calendar/04.jpg') }}" alt="Sri Ganesh" />     
-        <img src="{{ asset('website/images/calendar/05.jpg') }}" alt="Sri Ganesh" />  
-         <img src="{{ asset('website/images/calendar/06.jpg') }}" alt="Sri Ganesh" />  
-         <img src="{{ asset('website/images/calendar/07.jpg') }}" alt="Sri Ganesh" />  
-          <img src="{{ asset('website/images/calendar/08.jpg') }}" alt="Sri Ganesh" />  
-          <img src="{{ asset('website/images/calendar/09.jpg') }}" alt="Sri Ganesh" />  
-           <img src="{{ asset('website/images/calendar/11.jpg') }}" alt="Sri Ganesh" />  
-           <img src="{{ asset('website/images/calendar/12.jpg') }}" alt="Sri Ganesh" />  
-           <img src="{{ asset('website/images/calendar/13.jpg') }}" alt="Sri Ganesh" />  
-           <img src="{{ asset('website/images/calendar/14.jpg') }}" alt="Sri Ganesh" />  
-           <img src="{{ asset('website/images/calendar/15.jpg') }}" alt="Sri Ganesh" />  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <img src="{{ asset('website/images/c1.jpg') }}" alt="Sri Ganesh" />
+ <img src="{{ asset('website/images/c2.jpg') }}" alt="Sri Ganesh" />
+  <img src="{{ asset('website/images/c3.jpg') }}" alt="Sri Ganesh" />     
+    <img src="{{ asset('website/images/c4.jpg') }}" alt="Sri Ganesh" />     
+        <img src="{{ asset('website/images/c5.jpg') }}" alt="Sri Ganesh" />  
+         <img src="{{ asset('website/images/c6.jpg') }}" alt="Sri Ganesh" />  
+         <img src="{{ asset('website/images/c7.jpg') }}" alt="Sri Ganesh" />  
+          <img src="{{ asset('website/images/c8.jpg') }}" alt="Sri Ganesh" />  
+          <img src="{{ asset('website/images/c9.jpg') }}" alt="Sri Ganesh" />  
+           <img src="{{ asset('website/images/c10.jpg') }}" alt="Sri Ganesh" />  
+           <img src="{{ asset('website/images/c11.jpg') }}" alt="Sri Ganesh" />
+           <img src="{{ asset('website/images/c12.jpg') }}" alt="Sri Ganesh" />  
+           <img src="{{ asset('website/images/c13.jpg') }}" alt="Sri Ganesh" />  
+           <img src="{{ asset('website/images/c14.jpg') }}" alt="Sri Ganesh" />  
+           <img src="{{ asset('website/images/c15.jpg') }}" alt="Sri Ganesh" />  
        
  
        

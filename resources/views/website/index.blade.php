@@ -165,7 +165,7 @@ marquee { background: orangered; }
 <h3 class="w3l_header w3_agileits_header two">Holi Celebration</h3>
 
 <h1></h1>
-   <a href="https://siddhivinaayak.org/donation" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Know More ★  <span style="margin-left:390px;"><a href="{{ asset('website/images/temple_hall_rental.pdf') }}" target="_blank" style="color:white;">★ Temple Hall Rental ★</a></span></a> </marquee>      </a>
+   <a href="https://siddhivinaayak.org/donation" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Know More ★  <span style="margin-left:390px;"><a href="{{URL::route('temple_hall_rental')}}" target="_blank" style="color:white;">★ Temple Hall Rental ★</a></span></a> </marquee>      </a>
    
      <!--<a href="{{ asset('website/images/Appeal.pdf') }}" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Appeal Letter ★</a> </marquee></a>-->
       <!--   <h3 class="w3l_header w3_agileits_header two">Be a part of this “icchapoorti” yagya that grants all wishes!!
@@ -211,7 +211,7 @@ marquee { background: orangered; }
 
 
 
-  <center>   <img src="{{ asset('website/images/siddhivinayaka_holi.png') }}" alt="Maha Shivratri" / style="width:700px; height:700px;">   </center>
+  <center>   <img src="{{ asset('website/images/newholisiddi.png') }}" alt="Maha Shivratri" / style="width:700px; height:700px;">   </center>
 
 
 
