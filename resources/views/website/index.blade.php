@@ -162,7 +162,7 @@ marquee { background: orangered; }
 <!--<h3 class="w3l_header w3_agileits_header two">New Year's Day Celebration - Whole Day Temple Will Be Open On January 1st</h3>-->
 <!--<h3 class="w3l_header w3_agileits_header two">Bhoomi Pooja & Preliminary Jaladhivasa</h3>-->
 
-<h3 class="w3l_header w3_agileits_header two">Holi Celebration</h3>
+<!-- <h3 class="w3l_header w3_agileits_header two">Holi Celebration</h3> -->
 
 <h1></h1>
    <a href="https://siddhivinaayak.org/donation" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Know More ★  <span style="margin-left:390px;"><a href="{{URL::route('temple_hall_rental')}}" target="_blank" style="color:white;">★ Temple Hall Rental ★</a></span></a> </marquee>      </a>
@@ -210,18 +210,36 @@ marquee { background: orangered; }
        
 
 
-
-  <center>   <img src="{{ asset('website/images/newholisiddi.png') }}" alt="Maha Shivratri" / style="width:700px; height:700px;">   </center>
+<!-- 
+  <center>   <img src="{{ asset('website/images/newholisiddi.png') }}" alt="Maha Shivratri" / style="width:700px; height:700px;">   </center> -->
 
 
 
   <!--   </div> -->
 
-
+  <center><img style="width: 96px; height: 96px;" alt="Sri Ganesh" src="{{ asset('website/images/logo_final_Copy.jpg') }}" >
+</center>
+  <br><br>
+<div class="col-md-12">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8" style="color:white;">
+  <p style="color:white;">March 15, 2020</p><br>
+  <p style="color:white;">Subject: Coronavirus of COVID-19 outbreak </p><br>
+  <p style="color:white;">Dear Siddhi Vinayak Temple (SVT) Congregants, Volunteers and Devotees at large,</p><br>
+  <p style="color:white;">The health and safety of our congregants will always be the SVT’s top priority – and we know it is yours too. Closely following guidance from the Centers for Disease Control and Prevention (CDC) and the National Institutes of Health (NIH) in relation to the expanding COVID-19 outbreak, effective Monday the 16th of March, 2020, SVT will be closed until April 15, 2020.
+</p><br>
+  <p style="color:white;">In the face of the unprecedented days of the Coronavirus pandemic, we are individually and collectively facing many day-to-day challenges with work, personal health and overall wellbeing of our loved ones.  And, though we are physically closing SVT, our aim is to provide services (recording or live feeds of daily aartis and poojas that SVT’s resident priest, Pandit Bhargava Sarma will be conducting), via WhatsApp and other social media channels.  Additionally, devotees needing to conduct any special poojas should contact either Pandit Satyanarayan Marathe at 240-350-5096, or Pandit Bhargava Sarma at 908-938-3341, to obtain their counsel of conducting online rituals during the temple’s closure. </p><br>
+  <p style="color:white;">We hope and pray that the COVID-19 situation will soon be behind us, and that our temple will reopen soon for us to gather once again to experience an individual and collective sense of peace, joy, and community. </p><br>
+  <p style="color:white;">Many of us are blessed with good health, but we are aware that other community members around us could be at higher risk.  Please be prudent when making decisions regarding situations that put you in close contact with others, and know that Lord Siddhi Vinayak is always protecting us.</p><br>
+  <p style="color:white;">With gratitude, </p><br>
+  <p style="color:white;">Prachee J. Devadas</p>
+  <p style="color:white;">SVT Board of Directors</p>
+  </div>
+  <div class="col-md-2">
+  </div>
    
-   
-   
-     
+     </div>
 
 <!--        <div class="col-md-12 about_agileinfo_grid_imgs1">-->
  
