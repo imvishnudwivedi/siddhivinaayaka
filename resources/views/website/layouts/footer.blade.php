@@ -21,7 +21,7 @@
             
 
             <li><a href="{{URL::route('services')}}">Services</a></li>
-            <li><a href="{{URL::route('gallery')}}">Gallery</a></li>
+            <li><a href="{{URL::route('gallery_folder')}}">Gallery</a></li>
            
             <li><a href="{{URL::route('contact')}}">Contact</a></li>
              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BXV2HCHKFSE6S" target="_blank"><span style="font-size: 20px; background-color: orange;" class="label label-warning"> Donate</span></a></li>

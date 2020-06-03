@@ -894,7 +894,8 @@ a.rslides_nav.rslides1_nav.next {
 }
 
 #welcome {
-    background: orangered;
+    /* background: orangered; */
+    background: #EF1400;
     padding: 3em 0;
 }
 
@@ -2731,6 +2732,7 @@ ul.w3_short li {
         border: none;
         background: #0b0c11;
         border-radius: 0;
+        margin-top: 12px;
     }
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {

@@ -144,7 +144,7 @@ marquee { background: orangered; }
 </div>
 <ul class="rslides" id="slider">
   <li style="background:darkgoldenrod;"><video width="100%" height="540" id="slider_video" style="text-align:center;"  controls >
-<source src="{{ asset('website/video_about temple.mp4') }}" type="video/mp4">
+<source src="{{ asset('website/secondaniversary.mp4') }}" type="video/mp4">
 
 
 </video></li>
@@ -165,7 +165,16 @@ marquee { background: orangered; }
 <!-- <h3 class="w3l_header w3_agileits_header two">Holi Celebration</h3> -->
 
 <h1></h1>
-   <a href="https://siddhivinaayak.org/donation" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Know More ★  <span style="margin-left:390px;"><a href="{{URL::route('temple_hall_rental')}}" target="_blank" style="color:white;">★ Temple Hall Rental ★</a></span></a> </marquee>      </a>
+<!-- https://siddhivinaayak.org/donation -->
+   <a href="#" target="_blank"> <marquee class="li" direction=”right” style="background:#EF1400;">
+   ★ Second Anniversary & Shani Mandir Inauguration on June 13th Saturday & 14th Sunday
+    <!-- - Know More -->
+    
+     ★  <span style="margin-left:390px;">
+   <!-- <a href="{{URL::route('temple_hall_rental')}}" target="_blank" style="color:white;">
+   ★ Temple Hall Rental ★</a></span></a> -->
+   
+    </marquee>      </a>
    
      <!--<a href="{{ asset('website/images/Appeal.pdf') }}" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Appeal Letter ★</a> </marquee></a>-->
       <!--   <h3 class="w3l_header w3_agileits_header two">Be a part of this “icchapoorti” yagya that grants all wishes!!
@@ -217,11 +226,67 @@ marquee { background: orangered; }
 
   <!--   </div> -->
 
-  <center><img style="width: 96px; height: 96px;" alt="Sri Ganesh" src="{{ asset('website/images/logo_final_Copy.jpg') }}" >
+  <br>
+
+  <center>   <img src="{{ asset('website/images/second_anniversary.jpeg') }}" alt="Brown Bag" style="width: 50%;
+  height: 50% auto;" />   </center>
+
+  <!-- <center><img style="width: 96px; height: 96px;" alt="Sri Ganesh" src="{{ asset('website/images/logo_final_Copy.jpg') }}" >
 </center>
   <br><br>
 <div class="col-md-12">
-<center><h3 style="color:white;">Siddhivinaayak temple is inviting you to a scheduled Zoom meeting.</h3></center><br>
+<center><h4 style="color:white;">Second Anniversary & Grand Inauguration of Shani Mandir at Siddhivinaayak Temple, Glen Burnie, MD</h4></center>
+<center><h2 style="color:white;"><u>June 13th Saturday & 14th Sunday</u></h2></center><br>
+<center>
+<img style="width: 296px; height: 296px;" alt="Sri Ganesh" src="{{ asset('website/images/sv.png') }}" > </center>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6">
+        
+    <center> <h4> ★ Program Details ★ </h4></center>
+         
+        <p style="color:white;"> Ganapati Puja, Punyahavachana, Akhanda Deeparadhana, Ankurarpana, Kalasha Sthapana, Adhivasa Upacharas, Pratisara bandha, Homas ( Vastu, Navagraha, Shani Moola mantra,Tatvanyasa and kalaanyasa) Yantra and Vigraha Pratishta, Netronmeelanam, Prana pratishta, Abhishekam.  </p>
+        
+        </div>
+      
+      
+      
+        <div class="col-md-6">
+        <center> <h4> ★ Temple visit Instructions ★ </h4></center>
+        
+        <p style="color:white;"> Darshan will be by appoitment only.
+Only one family can visit the temple at a time. A time slot of 1 hour will be given to each family.
+No more than 6 people allowed per family.  </p>
+        </div>
+    </div>
+
+
+</div>
+<br><br>
+<div class="col-md-12">
+<center> <h4> ★ During your visit ★ </h4></center>
+
+<p style="color:white;">You will perform Sankalpa and Darshan in the main temple, Then move towards the Shani Mandir. 
+There, you will join our priest to perform Graha Shanti hawan.
+After Hawan, you will be provided sesame oil to do abhishek to Shani Bhagavan. 
+After Abhishek, you will proceed to the temple kitchen area, there you will be provided with packed Prashad to take home. </p>
+</div>
+
+
+<div class="col-md-12"><br><br>
+<center> <h4> ★ Appointment Details ★ </h4>
+
+<span style="color:white;">Appointments availible from 9 AM till 9 PM<br>
+Please contact Marathe Guruji (240-350-5096)<br>
+Or <br>
+Pundit Bhargav ji (908-938-3341) </span>
+</center>
+</div> -->
+
+
   <div class="col-md-2">
   </div>
   <!-- <div class="col-md-8" style="color:white;">
@@ -238,10 +303,10 @@ marquee { background: orangered; }
   <p style="color:white;">SVT Board of Directors</p>
   </div> -->
 
-
+<!-- 
   <div class="col-md-8" style="color:white;">
 
-  <!-- <center><h3 style="color:white;">Siddhivinaayak temple is inviting you to a scheduled Zoom meeting.</h3></center><br><br> -->
+ 
   <p style="color:white;">Topic:  Siddhivinaayak Sadhana </p>
   <p style="color:white;">* For the people</p>
   <p style="color:white;">* From the people</p>
@@ -276,21 +341,12 @@ Join Zoom Meeting</p>
 
 
 
+
+  </div> -->
+
 <!-- 
-  <p style="color:white;">Dear Siddhi Vinayak Temple (SVT) Congregants, Volunteers and Devotees at large,</p><br>
-  <p style="color:white;">The health and safety of our congregants will always be the SVT’s top priority – and we know it is yours too. Closely following guidance from the Centers for Disease Control and Prevention (CDC) and the National Institutes of Health (NIH) in relation to the expanding COVID-19 outbreak, effective Monday the 16th of March, 2020, SVT will be closed until April 15, 2020.
-</p><br>
-  <p style="color:white;">In the face of the unprecedented days of the Coronavirus pandemic, we are individually and collectively facing many day-to-day challenges with work, personal health and overall wellbeing of our loved ones.  And, though we are physically closing SVT, our aim is to provide services (recording or live feeds of daily aartis and poojas that SVT’s resident priest, Pandit Bhargava Sarma will be conducting), via WhatsApp and other social media channels.  Additionally, devotees needing to conduct any special poojas should contact either Pandit Satyanarayan Marathe at 240-350-5096, or Pandit Bhargava Sarma at 908-938-3341, to obtain their counsel of conducting online rituals during the temple’s closure. </p><br>
-  <p style="color:white;">We hope and pray that the COVID-19 situation will soon be behind us, and that our temple will reopen soon for us to gather once again to experience an individual and collective sense of peace, joy, and community. </p><br>
-  <p style="color:white;">Many of us are blessed with good health, but we are aware that other community members around us could be at higher risk.  Please be prudent when making decisions regarding situations that put you in close contact with others, and know that Lord Siddhi Vinayak is always protecting us.</p><br>
-  <p style="color:white;">With gratitude, </p><br>
-  <p style="color:white;">Prachee J. Devadas</p>
-  <p style="color:white;">SVT Board of Directors</p> -->
-  </div>
-
-
   <div class="col-md-2">
-  </div>
+  </div> -->
    
      </div>
 
