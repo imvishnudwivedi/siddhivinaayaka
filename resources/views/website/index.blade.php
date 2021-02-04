@@ -21,7 +21,7 @@
   -webkit-animation-direction: alternate;
 }
 
-marquee { background: orangered; }
+marquee { background: #EF1400; }
 
 .rightTI { background: #ff002b;
   white-space: nowrap; 
@@ -142,39 +142,45 @@ marquee { background: orangered; }
     </div>
   </div>
 </div>
-<ul class="rslides" id="slider">
+<!-- <ul class="rslides" id="slider">
   <li style="background:darkgoldenrod;"><video width="100%" height="540" id="slider_video" style="text-align:center;"  controls >
-<source src="{{ asset('website/secondaniversary.mp4') }}" type="video/mp4">
+<source src="{{ asset('website/video_about temple.mp4') }}" type="video/mp4">-->
+
+<!-- <source src="{{ asset('website/secondndaniversary.mp4') }}" type="video/mp4"> -->
+
+<!--<source src="https://youtu.be/1x8a9nvsaYk" type="video/mp4">-->
+
+<!--<iframe-->
+<!--src="https://youtu.be/1x8a9nvsaYk">-->
+<!--</iframe>-->
 
 
-</video></li>
+<!-- </video></li> -->
   
 
-</ul>
+</ul> 
 <!--darkgoldenrod-->
  
-     <div class="about" id="welcome" style="  background: ;">
+ 
+ 
+     <div class="about" id="welcome" style="  background: orange ;">
     <div class="container">
    <div class="wthree_head_section">
 
-<!--<h3 class="w3l_header w3_agileits_header two">Chalees Diwasey Mahayagya</h3>-->
+ 
 
 <!--<h3 class="w3l_header w3_agileits_header two">New Year's Day Celebration - Whole Day Temple Will Be Open On January 1st</h3>-->
 <!--<h3 class="w3l_header w3_agileits_header two">Bhoomi Pooja & Preliminary Jaladhivasa</h3>-->
 
 <!-- <h3 class="w3l_header w3_agileits_header two">Holi Celebration</h3> -->
 
-<h1></h1>
-<!-- https://siddhivinaayak.org/donation -->
-   <a href="#" target="_blank"> <marquee class="li" direction=”right” style="background:#EF1400;">
-   ★ Second Anniversary & Shani Mandir Inauguration on June 13th Saturday & 14th Sunday
-    <!-- - Know More -->
-    
-     ★  <span style="margin-left:390px;">
-   <!-- <a href="{{URL::route('temple_hall_rental')}}" target="_blank" style="color:white;">
-   ★ Temple Hall Rental ★</a></span></a> -->
+<!--<h1></h1>-->
    
-    </marquee>      </a>
+    <a href="#" target="_blank"> <marquee class="li" direction=”right”> 
+   
+ <span style="margin-left:-390px;">
+ <a href=# style="color:white;">
+  ★ Maha shivaratri on 11th March 2021 ★</a></span></a> </marquee>      </a>
    
      <!--<a href="{{ asset('website/images/Appeal.pdf') }}" target="_blank"> <marquee class="li" direction=”right”>★ FundRaising Campaign - Appeal Letter ★</a> </marquee></a>-->
       <!--   <h3 class="w3l_header w3_agileits_header two">Be a part of this “icchapoorti” yagya that grants all wishes!!
@@ -207,29 +213,34 @@ marquee { background: orangered; }
 
        
 
-  <!--      <div class="col-md-8 col-md-offset-2 about_agileinfo_grid_imgs1">-->
+       <div class="col-md-8 col-md-offset-2 about_agileinfo_grid_imgs1">
  
-  <!--<center>   <img src="{{ asset('website/images/mahayaga.jpeg') }}" alt="Sri Ganesh" />   </center>-->
+  <center>   <img src="{{ asset('website/images/covid_flyer.png') }}" alt="Sri Ganesh" />   </center>
       
        
-  <!--<center>   <img src="{{ asset('website/images/ShaniMandir.png') }}" alt="Sri Ganesh" / style="width:700px; height:800px;">   </center>-->
+  <!--<center>   <img src="{{ asset('website/images/ShaniMandir.png') }}" alt="Sri Ganesh" / style="width:700px; height:800px;">   </center>
   
        
-  <!-- <center>   <img src="{{ asset('website/images/demo3.png') }}" alt="Maha Shivratri" / style="width:700px; height:800px;">   </center> -->
+  <center>   <img src="{{ asset('website/images/demo3.png') }}" alt="Maha Shivratri" / style="width:700px; height:800px;">   </center>
        
 
 
-<!-- 
+
   <center>   <img src="{{ asset('website/images/newholisiddi.png') }}" alt="Maha Shivratri" / style="width:700px; height:700px;">   </center> -->
 
 
 
   <!--   </div> -->
 
-  <br>
+  <!--<br>-->
+  <!--<div class="col-md-10">-->
+  <!--    <center>   <img src="{{ asset('website/images/nav.jpeg') }}" style="width: 100%;-->
+  <!--height: 100% auto;" alt="Brown Bag" /> </center>-->
+      
+  <!--</div>-->
 
-  <center>   <img src="{{ asset('website/images/second_anniversary.jpeg') }}" alt="Brown Bag" style="width: 50%;
-  height: 50% auto;" />   </center>
+
+  
 
   <!-- <center><img style="width: 96px; height: 96px;" alt="Sri Ganesh" src="{{ asset('website/images/logo_final_Copy.jpg') }}" >
 </center>
@@ -247,7 +258,7 @@ marquee { background: orangered; }
         <div class="col-md-6">
         
     <center> <h4> ★ Program Details ★ </h4></center>
-         
+        
         <p style="color:white;"> Ganapati Puja, Punyahavachana, Akhanda Deeparadhana, Ankurarpana, Kalasha Sthapana, Adhivasa Upacharas, Pratisara bandha, Homas ( Vastu, Navagraha, Shani Moola mantra,Tatvanyasa and kalaanyasa) Yantra and Vigraha Pratishta, Netronmeelanam, Prana pratishta, Abhishekam.  </p>
         
         </div>

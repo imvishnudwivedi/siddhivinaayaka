@@ -70,6 +70,13 @@ class HomeController extends Controller
 
     return view('website.arati');
   }
+  
+  public function deities()
+  {
+
+    return view('website.deities');
+  }
+  
     public function video()
   {
 
@@ -98,11 +105,15 @@ class HomeController extends Controller
     return view('website.services');
   }
   
-  public function temple_hall_rental()
+    public function temple_hall_rental()
   {
 
     return view('website.temple_hall_rental');
   }
+  
+  
+  
+  
     public function contact()
   {
 

@@ -46,6 +46,13 @@ Route::get('dashboard',['as' => 'dashboard','uses'=>'DashboardController@index']
     Route::get('/gallery/pushgallery/{id}', ['as' => 'siddhivinayak.masters.gallery.pushgallery', 'uses' => 'GalleryController@pushgallery']);
 
 
+    Route::resource('flyer','FlyerController');
+    Route::post('/upload_flyer/', ['as' => 'siddhivinayak.masters.flyer.uploadFlyer', 'uses' => 'FlyerController@uploadFlyer']);
+    Route::put('/upload_flyer_image/', ['as' => 'siddhivinayak.masters.flyer.uploadFlyerImage', 'uses' => 'FlyerController@uploadFlyerImage']);
+     Route::get('/flyer/deactivate/{id}', ['as' => 'masters.flyer.deactivate', 'uses' => 'FlyerController@deactivate']);
+     Route::get('/flyer/pushflyer/{id}', ['as' => 'siddhivinayak.masters.flyer.pushflyer', 'uses' => 'FlyerController@pushFlyer']);
+
+
      Route::resource('folder','FolderController');
    Route::post('/upload_folder/', ['as' => 'siddhivinayak.masters.folder.uploadFolder', 'uses' => 'FolderController@uploadFolder']);
    Route::put('/upload_folder_image/', ['as' => 'siddhivinayak.masters.folder.uploadFolderImage', 'uses' => 'FolderController@uploadFolderImage']);
@@ -110,7 +117,7 @@ Route::group(['namespace'=>'website'], function () {
             Route::get('/priests',['as' => 'priests','uses'=>'HomeController@priests']);
              Route::get('/services',['as' => 'services','uses'=>'HomeController@services']);
                Route::get('/video',['as' => 'video','uses'=>'HomeController@video']);
-               Route::get('/temple_hall_rental',['as' => 'temple_hall_rental','uses'=>'HomeController@temple_hall_rental']);
+Route::get('/temple_hall_rental',['as' => 'temple_hall_rental','uses'=>'HomeController@temple_hall_rental']);
 
                Route::get('/subscribe',['as' => 'subscribe','uses'=>'HomeController@subscribe']);
                    Route::post('/subscribe',['as' => 'subscribe.posts','uses'=>'HomeController@postSubscribe']);
@@ -124,7 +131,7 @@ Route::group(['namespace'=>'website'], function () {
   
     Route::post('searchItem',array('as'=>'searchItem','uses'=>'HomeController@searchItem')) ;
 
-    
+    Route::get('/deities',['as' => 'deities','uses'=>'HomeController@deities']);
 
  //event
         Route::resource('/calendar', 'EventController');

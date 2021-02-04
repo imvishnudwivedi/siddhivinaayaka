@@ -32,6 +32,7 @@
                 <a href="#" class="dropdown-toggle hvr-ripple-in" data-toggle="dropdown">Temple <b class="fa fa-caret-down" aria-hidden="true"></b></a>
                 <ul class="dropdown-menu agile_short_dropdown">
                   <li><a href="{{URL::route('about')}}">About</a></li>
+                  <li><a href="{{URL::route('deities')}}">Deities</a></li>
                   <li><a href="{{URL::route('priests')}}">Priest</a></li>
                    <li><a href="{{URL::route('my_calender')}}">Calendar</a></li> 
 
@@ -41,10 +42,10 @@
               <!-- <li><a href="#" class="hvr-ripple-in">Services</a></li> -->
               
               <li class="{{ Request::is('services') ? 'active' : '' }}"><a href="{{URL::route('services')}}" class="hvr-ripple-in">Services</a></li>
-
-              <li class="{{ Request::is('temple_hall_rental') ? 'active' : '' }}"><a href="{{URL::route('temple_hall_rental')}}" class="hvr-ripple-in">Temple Hall Rental</a></li>
-             
-             
+              
+                <li class="{{ Request::is('temple_hall_rental') ? 'active' : '' }}"><a href="{{URL::route('temple_hall_rental')}}" class="hvr-ripple-in">Temple Hall Rental</a></li>
+                
+                
               <li class="{{ Request::is('donation') ? 'active' : '' }}"><a href="{{URL::route('donation')}}" class="hvr-ripple-in">Donation</a></li>
            {{--    <li class="{{ Request::is('gallery') ? 'active' : '' }}"> <a href="{{URL::route('gallery')}}" class="hvr-ripple-in">Gallery</a></li> --}}
 

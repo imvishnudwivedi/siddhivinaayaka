@@ -4,6 +4,15 @@
 
 @section('description', 'Lord Ganesha is the chief deity of this powerful Pooja. He is considered the ‘God of Luck’ and he blesses his devotees with smooth success in all their endeavors!')
 
+
+
+ <head>
+
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  
+  
+
 @section('content')
 
 <div class="services-breadcrumb">
@@ -43,7 +52,7 @@
     
     <div class="col-md-6 contact-form agile_inner_grids">
       
-     {!!Form::open(array('route' => array('contact.post'), 'method' => 'POST','files'=>true,'id'=>'contact-form'))!!}
+     {!!Form::open(array('route' => array('contact.post'), 'method' => 'POST','files'=>true,'id'=>'contact-form','id'=>'my_captcha_form'))!!}
         <div class="fields-grid">
           <div class="styled-input agile-styled-input-top">
             <input type="text" name="name" required="">
@@ -69,7 +78,13 @@
         </div>
       {{--   <input class="pull-right"  type="submit" value="SEND"> --}}
 
-        {!!  Form::submit('Send', ['class' => 'wpcf7-form-control wpcf7-submit red-btn pull-right','id'=>'submit_contact']) !!}
+
+  <div class="g-recaptcha" 
+data-sitekey="6Lc52KoZAAAAABv2hgZKCLRL_eXIiSRe3yYExzgc">
+  </div>
+
+
+        {!!  Form::submit('Send', ['class' => 'wpcf7-form-control wpcf7-submit red-btn pull-left','id'=>'submit_contact']) !!}
 
 
             {!! Form::close() !!}
@@ -98,6 +113,24 @@
     <!--  //CONTENT  -->
 
 @section('script')
+
+<script>
+document.getElementById("my_captcha_form").addEventListener("submit",function(evt)
+  {
+  
+  var response = grecaptcha.getResponse();
+  if(response.length == 0) 
+  { 
+    //reCaptcha not verified
+    alert("please verify you are humann!"); 
+    evt.preventDefault();
+    return false;
+  }
+  //captcha verified
+  //do the rest of your validations here
+  
+});
+</script>
 @parent
 
 
